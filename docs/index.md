@@ -4,6 +4,10 @@ YouCan API gives sellers the possibility to integrate other 3rd party tools that
 
 ## Table of Content
 
+- Getting Started
+  - [Query Filters](misc/query-filters.md)
+  - Entities
+    - [Product](entities/product.md)
 - [Connect OAuth](oauth/index.md)
-- Entities
-  - [Product](entities/product.md)
+- Products
+  - [Listing Products](products/index.md)
