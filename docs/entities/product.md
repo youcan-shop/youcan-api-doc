@@ -1,0 +1,29 @@
+Products are an essential part of the ecommerce system, here's a detailed listing of the product entity at YouCan.
+
+| Attribute Name | Type | Description |
+| --- | --- | --- |
+| id | string | Identifier (UUID) |
+| name | string | Product name |
+| slug | string | Product SLUG |
+| description | string | Product full description |
+| price | float | Product price (in store currency) |
+| compare_at_price | float,null | Product compare at price (in store currency) |
+| cost_price | float,null | Product cost price (in store currency) |
+| visibility | int (1,0) | Is product visible in store front |
+| track_inventory | bool | Is the product inventory is tracked or not |
+| has_variants | bool | Does the product has any variants. If not, we have one `default` variant automatically. |
+| advanced_options | JSON | An object containing the list of selected options to customize the product show product |
+| [meta](#meta) | JSON | SEO attributes |
+| variant_options | array | List of variations for the product |
+| created_at | string | Product creation date |
+
+<a name="meta"></a>
+## Meta
+
+SEO object to be used for SEO.
+
+| Attribute Name | Type|
+| --- | --- |
+| title | string |
+| description | string |
+| images | array |
