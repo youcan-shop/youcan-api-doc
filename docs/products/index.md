@@ -2,6 +2,8 @@
 
 Endpoint: `https://seller-area.youcan.shop/admin/api/products` 
 
+Method: `GET`
+
 ## Sorting
 
 - `sort_field`:
@@ -19,6 +21,8 @@ Endpoint: `https://seller-area.youcan.shop/admin/api/products`
 
 
 ## Response
+
+[200]
 
 ```json
 {
