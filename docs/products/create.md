@@ -20,6 +20,7 @@ Method: `POST`
 | `variant_options` | array | List of product [variant options](#variant_options). | no |
 | `categories` | string[] | List of categories IDs to attach to product | no |
 | `variants` | array | List of product [variants](#variants). | no |
+| `vendors` | array|string[] | List of tags/vendors to assign to product. | no |
 
 <a name="variant_options"></a>
 ### Variant Options
