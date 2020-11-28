@@ -9,6 +9,8 @@ YouCan API gives sellers the possibility to integrate other 3rd party tools that
   - Entities
     - [Product](entities/product/product.md)
 - [Connect OAuth](oauth/index.md)
+- Store
+  - [Store details](store/me.md)
 - Products
   - [Listing Products](products/index.md)
   - [Create Product](products/create.md)
