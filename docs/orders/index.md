@@ -29,8 +29,6 @@ Searchable fields are matched when the field value contains the expression
 - `Customer phone`
 - `Customer email`
 
-### Matched fields
-
 ## Response
 
 [200]
