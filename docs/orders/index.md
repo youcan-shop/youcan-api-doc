@@ -17,7 +17,9 @@ To search in orders, add GET param `q`.
 
 `https://seller-area.youcan.shop/admin/api/orders?q=<SEARCH_VALUE>`
 
-### Searched fields
+### Searcheable fields
+
+Searchable fields are matched when the field value contains the expression
 
 - `Order ref`
 - `Order notes`
