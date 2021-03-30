@@ -1,6 +1,6 @@
 # Listing Orders
 
-Endpoint: `https://seller-area.youcan.shop/admin/api/orders`
+Endpoint: `https://api.youcan.shop/orders`
 
 Method: `GET`
 

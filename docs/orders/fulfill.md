@@ -1,6 +1,6 @@
 # Fulfill Order
 
-Endpoint: `https://seller-area.youcan.shop/admin/api/orders/{id}/fulfill`
+Endpoint: `https://api.youcan.shop/orders/{id}/fulfill`
 
 Method: `PUT`
 

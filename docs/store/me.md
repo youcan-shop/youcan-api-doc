@@ -1,6 +1,6 @@
 # Get store details
 
-Endpoint: `https://seller-area.youcan.shop/admin/api/me` 
+Endpoint: `https://api.youcan.shop/me` 
 
 Method: `GET`
 

@@ -4,7 +4,7 @@
 	"values": [
 		{
 			"key": "base_api_path",
-			"value": "http://seller-area.{{hostname}}/admin/api",
+			"value": "http://api.{{hostname}}",
 			"enabled": true
 		},
 		{
