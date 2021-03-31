@@ -1,0 +1,24 @@
+{
+	"id": "3a449c00-df7b-4df8-91ee-c021f8f7d35e",
+	"name": "YouCan StoreAdmin API",
+	"values": [
+		{
+			"key": "base_api_path",
+			"value": "http://api.{{hostname}}",
+			"enabled": true
+		},
+		{
+			"key": "hostname",
+			"value": "dotshop.com",
+			"enabled": true
+		},
+		{
+			"key": "oauth_path",
+			"value": "http://seller-area.{{hostname}}/admin/oauth",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-03-24T17:17:02.809Z",
+	"_postman_exported_using": "Postman/8.0.6"
+}

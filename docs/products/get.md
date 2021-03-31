@@ -1,6 +1,6 @@
 # Get Product
 
-Endpoint: `https://seller-area.youcan.shop/admin/api/products/{id}` 
+Endpoint: `https://api.youcan.shop/products/{id}` 
 
 Method: `GET`
 
