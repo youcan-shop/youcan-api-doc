@@ -85,7 +85,7 @@ Use `sz` if the shipping is free and `sr` when choosing a specific shipping rate
   "total": 270,
   "notes": "a note",
   "status": 1,
-  "tags": ["tag1". "tag2"],
+  "tags": ["tag1", "tag2"],
   "extra_fields": null,
   "is_refunded_by_platform": false,
   "platform_fee": 0,
