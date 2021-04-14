@@ -15,7 +15,7 @@ Method: `PUT`
 | `start_date` | Datetime | Start date of coupon validity | yes |
 | `end_date` | Datetime | End date of coupon validity | no |
 | `max_usage` | int | How many times the coupon can be used | no |
-| `product_ids` | string[] | List of product IDs the coupon is valid for | no |
+| `product_ids` | string[] | List of product IDs the coupon is valid for | yes |
 
 ## Response
 
