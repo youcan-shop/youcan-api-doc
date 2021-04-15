@@ -7,10 +7,10 @@ The Upsell entity at YouCan.
 | description | string, null | Description |
 | product_id | uuid | Product id concerned by this upsell |
 | product_offer_ids |  array | Array of product ids the upsell will display |
-| actions | array of objects [[Action](#action)] | Yes, No buttons with their setting
-| footer | string, null | Text displayed in bottom for upsell
-| weight | int, _(default: 1)_ | The weight
-| active | int, _(default: 0)_ | Status of upsell 0: Inactive, 1: Active
+| actions | array of objects [[Action](#action)] | Yes, No buttons with their setting |
+| footer | string, null | Text displayed in bottom for upsell |
+| weight | int, _(default: 1)_ | The weight |
+| active | int, _(default: 0)_ | Status of upsell 0: Inactive, 1: Active |
 
 ## Action
 
