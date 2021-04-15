@@ -4,7 +4,7 @@ Endpoint: `https://api.youcan.shop/customers/{id}`
 
 Method: `DELETE`
 
-<a name="reponse"></a>
+<a name="response"></a>
 ## Response
 
 [200] OK
@@ -15,16 +15,5 @@ Method: `DELETE`
     "http_code": 200,
     "code": "DELETED",
     "type": "success"
-}
-```
-
-[400] Bad Request
-
-```json
-{
-    "status": 400,
-    "code": "",
-    "detail": "could not delete customer",
-    "meta": []
 }
 ```
