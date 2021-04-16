@@ -30,6 +30,7 @@ Method: `POST`
 | `first_line`   | string     | Address holder's first line   | no       |
 | `second_line`  | string     | Address holder's second line  | no       |
 | `region`       | string     | Address holder's region       | no       |
+| `state`        | string     | Address holder's state       | no       |
 | `city`         | string     | Address holder's city         | no       |
 | `zip_code`     | string     | Address holder's postal code  | no       |
 | `country_code` | string     | Address holder's country code | no       |
