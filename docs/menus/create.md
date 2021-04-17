@@ -10,8 +10,8 @@ Method: `POST`
 | --- | --- | --- | --- |
 | name | string | Name | yes |
 | slug | string | URL slug | yes |
-| links |  array of objects [[Link](#link)], null | Array of product ids the upsell will display |
-| links.children    |  array of objects [[Link childern](#Links children)], null | Array of product ids the upsell will display |
+| links |  array of objects [[Link](#link)], null | Array of links | no
+| links.children  |  array of objects [[Link childern](#Links children)], null | Array of links chillers | no
 
 ## Response
 
@@ -20,7 +20,7 @@ Method: `POST`
 ```json
 {
   "id": "02360486-292e-4bd2-bcae-67b281414c31",
-  "name": "Test menu 02",
+  "name": "Test manue 02",
   "slug": "page-08",
   "is_default": false,
   "links": [
