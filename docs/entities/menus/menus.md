@@ -16,7 +16,8 @@ The Menu entity at YouCan.
 | `id`          | uuid          | Identifier (UUID)         | 
 | `name`        | string        | name of link              | 
 | `link`        | string        | Link path                 | 
-| `link_to`     | smallint      | Link to                 | 
+| `link_to`     | smallint      | Link to                  | 
+| `order`       | int           | Link order               | 
 
 ### Links children
 
@@ -26,3 +27,4 @@ The Menu entity at YouCan.
 | `name`        | string        | name of link              | 
 | `link`        | string        | Link path                 | 
 | `link_to`     | smallint      | Link to                   | 
+| `order`       | int           | Link order               |
