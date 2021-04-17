@@ -1,6 +1,6 @@
-# Fulfill Order
+# Close Order
 
-Endpoint: `https://api.youcan.shop/orders/{id}/fulfill`
+Endpoint: `https://api.youcan.shop/orders/{id}/close`
 
 Method: `PUT`
 
@@ -8,20 +8,30 @@ Body:
 
 | Param Name | Param Type | Description | Required |
 | --- | --- | --- | --- |
-| seller_note | string | note from the seller | no |
-| tracking_number | string | shipping tracking number | no |
+| cancel_order | boolean | cancel order & return it to stock | no |
 
 ## Response
 
-[200] Order successfully fulfilled
+[200] Order successfully closed
 
 ```json
 {
-  "message": "The order is fulfilled successfully.",
+  "message": "The order closed successfully.",
   "http_code": 200,
   "code": "UPDATED",
   "type": "success",
   "data": null
+}
+```
+
+[400] Order not closed
+
+```json
+{
+  "status": 400,
+  "code": "ORDER-NOT-CLOSED",
+  "detail": "Order #021A not closed.",
+  "meta": []
 }
 ```
 
@@ -30,8 +40,8 @@ Body:
 ```json
 {
   "status": 422,
-  "code": "ORDER-ALREADY-FULFILLED",
-  "detail": "Order #021A is already fulfilled.",
+  "code": "ORDER-ALREADY-CLOSED",
+  "detail": "Order #021A is already closed.",
   "meta": []
 }
 ```
