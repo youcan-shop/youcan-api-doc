@@ -1,13 +1,13 @@
 The Menu entity at YouCan.
 
-| Attribute Name    | Type | Description |
-| -------------     | ----| --- |
-| id                | string | Identifier (UUID) |
-| name              | string | Name |
-| slug              | string | URL slug |
-| is_default        | boolean | If it is the default menu |
-| links             |  array of objects [[Link](#link)], null | Array of links will display for the menu |
-| links.children    |  array of objects [[Link childern](#Links children)], null | Array of links will display as sub link |
+| Attribute Name    | Type                                                      | Description                               |
+| -------------     | ----------------------------------------------------------| ----------------------------------------- |
+| id                | string                                                    | Identifier (UUID)                         |
+| name              | string                                                    | Name                                      |
+| slug              | string                                                    | URL slug                                  |
+| is_default        | boolean                                                   | If it is the default menu                 |
+| links             | array of objects [[Link](#link)], null                    | Array of links will display for the menu  |
+| links.children    | array of objects [[Link childern](#Links children)], null | Array of links will display as sub link   |
 
 ## Link
 
