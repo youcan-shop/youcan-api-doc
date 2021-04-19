@@ -7,7 +7,7 @@ Method: `GET`
 <a name="response"></a>
 ## Response
 
-[201] Created
+[200] OK
 
 ```json
 {
