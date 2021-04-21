@@ -1,24 +1,20 @@
-# Listing Products Reviews
+# Listing Product Reviews
 
-Endpoint: `https://api.youcan.shop/reviews` 
+Endpoint: `https://api.youcan.shop/products/{id}/reviews` 
 
 Method: `GET`
+
+## Parameters
+
+- `id`: Product id
 
 ## Sorting
 
 - `sort_field`:
-  - `name`: Product name.
-  - `price`: Product price.
-  - `orders_count`: Product orders count.
-  - `you_save_amount`: The different between price and compare at price.
-
-## Filters
-
-| Field Name | Operator | Value type | Description |
-| --- | --- | --- | --- |
-| `inventory` | `<`, `<`, `=` | number | Product inventory |
-
-
+  - `ratings`: Product review ratings stars.
+  - `first_name`: Product reviewer's first name.
+  - `last_name`: Product reviewer's last name.
+  - `created_at`: Product review creation date.
 
 ## Response
 
@@ -49,3 +45,5 @@ Method: `GET`
     }
 }
 ```
+
+[404] Product not found
