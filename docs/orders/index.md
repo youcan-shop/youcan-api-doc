@@ -15,7 +15,7 @@ Method: `GET`
 
 To search in orders, add GET param `q`.
 
-`https://seller-area.youcan.shop/admin/api/orders?q=<SEARCH_VALUE>`
+`https://api.youcan.shop/orders?q=<SEARCH_VALUE>`
 
 ### Searcheable fields
 

@@ -24,8 +24,17 @@ YouCan API gives sellers the possibility to integrate other 3rd party tools that
     - [Approve Review](products/reviews/approve.md)
     - [Reject Review](products/reviews/reject.md)
     - [Delete Review](products/reviews/delete.md)
+  - Inventory
+    - [Increment Product Inventory](products/inventory/increment.md)
+    - [Decrement Product Inventory](products/inventory/decrement.md)
 - Orders
   - [Listing Orders](orders/index.md)
   - [Get Order](orders/get.md)
   - [Fulfill Order](orders/fulfill.md)
   - [Create Order](orders/create.md)
+- Categories
+  - [List Categories](categories/index.md)
+  - [Get Category](categories/get.md)
+  - [Create Category](categories/create.md)
+  - [Update Category](categories/update.md)
+  - [Delete Category](categories/delete.md)
