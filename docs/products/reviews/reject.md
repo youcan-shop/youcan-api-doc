@@ -4,7 +4,7 @@ Endpoint: `https://api.youcan.shop/reviews/{id}/reject`
 
 Method: `PUT`
 
-## Parameters
+## URL Parameters
 
 - `id`: Review id
 

@@ -4,7 +4,7 @@ Endpoint: `https://api.youcan.shop/products/{id}/reviews`
 
 Method: `POST`
 
-## Parameters
+## URL Parameters
 
 - `id`: Product id
 

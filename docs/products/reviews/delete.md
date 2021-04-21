@@ -4,7 +4,7 @@ Endpoint: `https://api.youcan.shop/reviews/{id}`
 
 Method: `DELETE`
 
-## Parameters
+## URL Parameters
 
 - `id`: Review id
 
