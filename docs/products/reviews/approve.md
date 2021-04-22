@@ -8,7 +8,7 @@ Method: `PUT`
 
 - `id`: Review id
 
-## Response
+## Responses
 
 [200] Review successfully approved
 
