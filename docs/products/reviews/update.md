@@ -19,7 +19,7 @@ Method: `PUT`
 | `content`        | string       | Product reviewer's last name       | no      |
 | `images` | File[] | Product review images | no |
 
-## Response
+## Responses
 
 [200] Review successfully updated
 
