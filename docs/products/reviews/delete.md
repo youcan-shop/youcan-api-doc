@@ -8,7 +8,7 @@ Method: `DELETE`
 
 - `id`: Review id
 
-## Response
+## Responses
 
 [200] Review successfully deleted
 
