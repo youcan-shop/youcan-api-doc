@@ -19,7 +19,7 @@ Method: `POST`
 | `content`        | string       | Product reviewer's last name       | no      |
 | `images` | File[] | Product review images | no |
 
-## Response
+## Responses
 
 [201] Review successfully created
 
