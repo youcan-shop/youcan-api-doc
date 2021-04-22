@@ -16,7 +16,7 @@ Method: `GET`
   - `last_name`: Product reviewer's last name.
   - `created_at`: Product review creation date.
 
-## Response
+## Responses
 
 [200]
 
