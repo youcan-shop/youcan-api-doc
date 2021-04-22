@@ -8,7 +8,7 @@ Method: `Get`
 
 - `id`: Review id
 
-## Response
+## Responses
 
 [200]
 
