@@ -26,6 +26,12 @@
   - [Get Order](/docs/orders/get.md)
   - [Fulfill Order](/docs/orders/fulfill.md)
   - [Create Order](/docs/orders/create.md)
+- Upsells
+  - [Listing upsells](/docs/upsells/index.md)
+  - [Get Upsell](/docs/upsells/get.md)
+  - [Create Upsell](/docs/upsells/create.md)
+  - [Update Upsell](/docs/upsells/update.md)
+  - [Delete Upsell](/docs/upsells/delete.md)
 - Categories
   - [List Categories](/docs/categories/index.md)
   - [Get Category](/docs/categories/get.md)
