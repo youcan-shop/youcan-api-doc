@@ -5,7 +5,8 @@ Endpoint: `https://api.youcan.shop/customers/{id}`
 Method: `GET`
 
 <a name="response"></a>
-## Response
+
+## Responses
 
 [200] OK
 
@@ -50,5 +51,16 @@ Method: `GET`
             "updated_at": 1618494926
         }
     ]
+}
+```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 0,
+    "detail": "Customer not found",
+    "meta": []
 }
 ```

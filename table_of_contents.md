@@ -38,3 +38,17 @@
   - [Create Category](/docs/categories/create.md)
   - [Update Category](/docs/categories/update.md)
   - [Delete Category](/docs/categories/delete.md)
+- Customers
+    - [List Customers](/docs/customers/index.md)
+    - [Get Customer](/docs/customers/get.md)
+    - [Create Customer](/docs/customers/create.md)
+    - [Update Customer](/docs/customers/update.md)
+    - [Delete Customer](/docs/customers/delete.md)
+    - [Create Customer Address](/docs/customers/addresses/create.md)
+    - [Update Customer Address](/docs/customers/addresses/update.md)
+- Pages
+    - [List Pages](/docs/pages/index.md)
+    - [Get Page](/docs/pages/get.md)
+    - [Create Page](/docs/pages/create.md)
+    - [Update Page](/docs/pages/update.md)
+    - [Delete Page](/docs/pages/delete.md)

@@ -27,3 +27,35 @@ Method: `PUT`
 ## Response
 
 [200] OK
+
+```json
+{
+    "message": "Customer address updated successfully",
+    "http_code": 200,
+    "code": "UPDATED",
+    "type": "success",
+    "data": null
+}
+```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 0,
+    "detail": "Customer not found",
+    "meta": []
+}
+```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 0,
+    "detail": "Address not found",
+    "meta": []
+}
+```

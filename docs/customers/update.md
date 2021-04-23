@@ -21,7 +21,7 @@ Method: `PUT`
 
 <a name="response"></a>
 
-## Response
+## Responses
 
 [200] OK
 
@@ -32,5 +32,16 @@ Method: `PUT`
     "code": "UPDATED",
     "type": "success",
     "data": null
+}
+```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 0,
+    "detail": "Customer not found",
+    "meta": []
 }
 ```
