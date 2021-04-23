@@ -36,7 +36,6 @@ to help the YouCan support team investigate in your error quickly.
 ```json
 {
     "status": 404,
-    "code": 404,
     "detail": "The POST method is not supported for this route. Supported methods: GET, HEAD, PUT, DELETE.",
     "meta": []
 }
@@ -46,7 +45,6 @@ to help the YouCan support team investigate in your error quickly.
 ```json
 {
     "status": 500,
-    "code": "",
     "detail": "internal error",
     "meta": []
 }
