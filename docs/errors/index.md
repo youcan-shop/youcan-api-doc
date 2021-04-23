@@ -45,7 +45,6 @@ to help the YouCan support team investigate in your error quickly.
 ```json
 {
     "status": 500,
-    "detail": "internal error",
-    "meta": []
+    "detail": "internal error"
 }
 ```
