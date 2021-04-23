@@ -8,7 +8,7 @@ Method: `GET`
 
 [200] Ok
 
-```
+```json
 {
     "data": [
         {

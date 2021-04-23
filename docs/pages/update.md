@@ -21,7 +21,7 @@ Method: `POST`
 
 [200] OK
 
-```
+```json
 {
     "message": "Page updated successfully",
     "http_code": 200,
