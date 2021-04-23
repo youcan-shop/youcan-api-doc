@@ -14,11 +14,10 @@ to help the YouCan support team investigate in your error quickly.
 
 ### Examples
 
-#### Customer not found error
+#### Not found
 ```json
 {
     "status": 404,
-    "code": 0,
     "detail": "Customer not found",
     "meta": []
 }
@@ -28,7 +27,6 @@ to help the YouCan support team investigate in your error quickly.
 ```json
 {
     "status": 422,
-    "code": 0,
     "detail": "The code field is required.",
     "meta": []
 }
