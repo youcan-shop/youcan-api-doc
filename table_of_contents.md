@@ -2,6 +2,7 @@
   - [Query Filters](/docs/misc/query-filters.md)
   - Entities
     - [Product](/docs/entities/product/product.md)
+  - [Errors](/docs/errors/index.md)
 - [Connect OAuth](/docs/oauth/index.md)
 - Store
   - [Store details](/docs/store/me.md)
