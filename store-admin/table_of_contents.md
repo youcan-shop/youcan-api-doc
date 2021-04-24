@@ -1,4 +1,5 @@
-- Store admin - Getting Started
+- [Store admin](/store-admin/index.md)
+  - Getting Started
   - [Query Filters](/store-admin/misc/query-filters.md)
 - Entities
   - [Product](/store-admin/entities/product/product.md)

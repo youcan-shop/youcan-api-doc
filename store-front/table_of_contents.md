@@ -1,4 +1,5 @@
-- Store front - Getting Started 
+- [Store front](/store-front/index.md) 
+  - Getting Started 
   - [Query Filters](/store-front/misc/query-filters.md)
   - Entities
     - [Product](/store-front/entities/product/product.md)
