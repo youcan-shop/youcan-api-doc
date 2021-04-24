@@ -52,3 +52,11 @@
     - [Create Page](/docs/pages/create.md)
     - [Update Page](/docs/pages/update.md)
     - [Delete Page](/docs/pages/delete.md)
+- Shipping Zones
+    - [List Shipping Zones](/docs/shipping-zones/index.md)
+    - [Get Shipping Zone](/docs/shipping-zones/get.md)
+    - [Create Shipping Zone](/docs/shipping-zones/create.md)
+    - [Update Shipping Zone](/docs/shipping-zones/update.md)
+    - [Delete Shipping Zone](/docs/shipping-zones/delete.md)
+    - [Create Shipping Rate](/docs/shipping-zones/rates/create.md)
+    - [Update Shipping Rate](/docs/shipping-zones/rates/update.md)
