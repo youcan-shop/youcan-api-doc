@@ -71,3 +71,11 @@
   - [Create Page](/store-admin/pages/create.md)
   - [Update Page](/store-admin/pages/update.md)
   - [Delete Page](/store-admin/pages/delete.md)
+- #### Shipping Zones
+  - [List Shipping Zones](/store-admin/shipping-zones/index.md)
+  - [Get Shipping Zone](/store-admin/shipping-zones/get.md)
+  - [Create Shipping Zone](/store-admin/shipping-zones/create.md)
+  - [Update Shipping Zone](/store-admin/shipping-zones/update.md)
+  - [Delete Shipping Zone](/store-admin/shipping-zones/delete.md)
+  - [Create Shipping Rates](/store-admin/shipping-zones/rates/create.md)
+  - [Update Shipping Rates](/store-admin/shipping-zones/rates/update.md)
