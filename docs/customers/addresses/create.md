@@ -23,7 +23,7 @@ Method: `POST`
 | `is_default`   | boolean    | Address holder's country code | no       |
 
 <a name="response"></a>
-## Response
+## Responses
 
 [201] Created
 
@@ -89,3 +89,15 @@ Method: `POST`
     ]
 }
 ```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 0,
+    "detail": "Customer not found",
+    "meta": []
+}
+```
+
