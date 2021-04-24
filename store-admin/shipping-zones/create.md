@@ -14,24 +14,18 @@ Method: `POST`
 | `display_name` | string     | shipping zone display name  | yes       |
 | `countries`    | array,null | shipping zone countries     | no        |
 | `is_free`      | boolean    | is free shipping            | no        |
-| `is_active`    | boolean    | is shipping zone active    | no         |
+| `is_active`    | boolean    | is shipping zone active     | no         |
 | `rate_type`    | string     | (prince, weight)            | no        |
-| `rates` | [ShippingRate](#ShippingRate) | shipping zone rates  | no   |
-
-## ShippingRate
-
-| Param Name     | Param Type | Description                   | Required |
-| -------------- | ---------- | ----------------------------- | -------- |
-| `rates`        | array      | shipping zone rates           | required if `is_free` false  |
-| `rates.*.min`  | float      | shipping rate min             | yes      |
-| `rates.*.max`  | float,null | shipping rate max             | no       |
-| `rates.*.price`| float      | shipping rate price           | yes      |
+| `rates`        | array      | shipping zone rates         | required if `is_free` false  |
+| `rates.*.min`  | float      | shipping rate min           | yes      |
+| `rates.*.max`  | float,null | shipping rate max           | no       |
+| `rates.*.price`| float      | shipping rate price         | yes      |
 
 
 <a name="response"></a>
 ## Response
 
-[200] OK
+[201] Created
 
 ```json
 {

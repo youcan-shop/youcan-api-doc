@@ -20,7 +20,7 @@ Method: `POST`
 <a name="response"></a>
 ## Response
 
-[200] OK
+[201] Created
 
 ```json
 {
@@ -61,3 +61,16 @@ Method: `POST`
     ]
 }
 ```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 404,
+    "detail": "Shipping zone not found",
+    "meta": []
+}
+```
+
+

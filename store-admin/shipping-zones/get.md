@@ -4,7 +4,7 @@ Endpoint: `https://api.youcan.shop/shipping-zones/{id}`
 
 Method: `GET`
 
-## Response
+## Responses
 
 [200] OK
 
@@ -45,5 +45,16 @@ Method: `GET`
             "price": 30.1
         }
     ]
+}
+```
+
+[404] Not Found
+ 
+```json
+{
+    "status": 404,
+    "code": 404,
+    "detail": "Shipping zone not found",
+    "meta": []
 }
 ```

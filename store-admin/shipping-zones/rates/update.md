@@ -32,3 +32,14 @@ Method: `PUT`
     "data": null
 }
 ```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 404,
+    "detail": "Shipping zone not found",
+    "meta": []
+}
+```

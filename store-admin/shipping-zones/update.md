@@ -12,22 +12,15 @@ Method: `PUT`
 | `display_name` | string     | shipping zone display name  | yes       |
 | `countries`    | array,null | shipping zone countries     | no        |
 | `is_free`      | boolean    | is free shipping            | no        |
-| `is_active`    | boolean    | is shipping zone active     | no        |
-| `rate_type`    | string     | (prince, weight)            | required if `is_free` is false   |
-| `rates` | [ShippingRate](create.md#ShippingRate) | shipping zone rates  | required if `is_free` is false   |
+| `is_active`    | boolean    | is shipping zone active     | no         |
+| `rate_type`    | string     | (prince, weight)            | no        |
+| `rates`        | array      | shipping zone rates         | required if `is_free` false  |
+| `rates.*.min`  | float      | shipping rate min           | yes      |
+| `rates.*.max`  | float,null | shipping rate max           | no       |
+| `rates.*.price`| float      | shipping rate price         | yes      |
+
+
 ## Responses
-
-
-[404] Not Found
-
-```json
-{
-    "status": 404,
-    "code": 404,
-    "detail": "Shipping zone not found",
-    "meta": []
-}
-```
 
 [200] OK
 
@@ -38,5 +31,16 @@ Method: `PUT`
     "code": "UPDATED",
     "type": "success",
     "data": null
+}
+```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 404,
+    "detail": "Shipping zone not found",
+    "meta": []
 }
 ```

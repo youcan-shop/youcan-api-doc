@@ -6,7 +6,7 @@ Method: `DELETE`
 
 <a name="response"></a>
 
-## Responses
+## Response
 
 [200] OK
  
@@ -18,3 +18,15 @@ Method: `DELETE`
     "type": "success"
 }
 ```
+
+[404] Not Found
+ 
+```json
+{
+    "status": 404,
+    "code": 404,
+    "detail": "Shipping zone not found",
+    "meta": []
+}
+```
+
