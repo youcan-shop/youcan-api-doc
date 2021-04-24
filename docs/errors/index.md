@@ -27,8 +27,20 @@ to help the YouCan support team investigate in your error quickly.
 ```json
 {
     "status": 422,
-    "detail": "The code field is required.",
-    "meta": []
+    "detail": "The given data was invalid.",
+    "meta": {
+        "fields": {
+            "email": [
+                "The email field is required."
+            ],
+            "password": [
+                "The password field is required."
+            ],
+            "password_confirmation": [
+                "The password confirmation field is required."
+            ]
+        }
+    }
 }
 ```
 
