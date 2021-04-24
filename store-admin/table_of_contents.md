@@ -1,4 +1,4 @@
-- Getting Started
+- Store admin - Getting Started
   - [Query Filters](/store-admin/misc/query-filters.md)
 - Entities
   - [Product](/store-admin/entities/product/product.md)

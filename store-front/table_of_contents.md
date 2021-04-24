@@ -1,10 +1,4 @@
-# YouCan Store Front API
-
-YouCan Store Front API gives sellers the possibility to integrate other 3rd party tools that they use in their day to day selling experience.
-
-## Table of Content
-
-- Getting Started
+- Store front - Getting Started 
   - [Query Filters](/store-front/misc/query-filters.md)
   - Entities
     - [Product](/store-front/entities/product/product.md)
