@@ -8,7 +8,7 @@ Method: `GET`
 
 [200] Ok
 
-```
+```json
 {
     "id": "18d696bd-53ed-4781-ae0e-fa30673542c0",
     "name": "Acerca de la tienda",

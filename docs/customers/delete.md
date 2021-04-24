@@ -6,7 +6,7 @@ Method: `DELETE`
 
 <a name="response"></a>
 
-## Response
+## Responses
 
 [200] OK
  
@@ -16,5 +16,16 @@ Method: `DELETE`
     "http_code": 200,
     "code": "DELETED",
     "type": "success"
+}
+```
+
+[404] Not Found
+
+```json
+{
+    "status": 404,
+    "code": 0,
+    "detail": "Customer not found",
+    "meta": []
 }
 ```

@@ -21,7 +21,7 @@ Method: `POST`
 
 [201] Created
 
-```
+```json
 {
     "id": "676a0db0-0d9a-4022-b681-68cefb1c260a",
     "name": "about-us",

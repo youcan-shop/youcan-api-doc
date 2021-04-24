@@ -44,7 +44,7 @@ Ex: `[{"name": "Size", "type": 4, "values": ["M", "L"]}]`
 
 [201] Created
 
-```
+```json
  {
     "id": "dbf8a5a4-4bf9-11ea-ade4-0697b8fb7323",
      "name": "Amazing watch for you",

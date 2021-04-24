@@ -8,7 +8,7 @@ Method: `DELETE`
 
 [200] Ok
 
-```
+```json
 {
     "message": "The resource has been successfully deleted.",
     "http_code": 200,

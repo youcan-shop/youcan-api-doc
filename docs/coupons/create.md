@@ -21,7 +21,7 @@ Method: `POST`
 
 [201] Created
 
-```
+```json
  {
     "id": "5913f1f7-f14d-4046-8a7d-701ab8189f11",
     "code": "code0332",

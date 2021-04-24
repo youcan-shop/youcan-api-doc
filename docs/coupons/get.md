@@ -8,7 +8,7 @@ Method: `GET`
 
 [200] Ok
 
-```
+```json
 {
     "id": "2e62a766-af79-49b1-b57b-0a2fdbaeec65",
     "code": "code03323",
