@@ -1,16 +1,16 @@
-- [Store front](/store-front/index.md) 
+- #### [Store front](/store-front/index.md) 
   - Getting Started 
   - [Query Filters](/store-front/misc/query-filters.md)
-  - Entities
+- #### Entities
     - [Product](/store-front/entities/product/product.md)
-- Products
+- #### Products
   - [Listing Products](/store-front/products/index.md)
   - [Show Product](/store-front/products/show.md)
   - [Listing Products By Category](/store-front/products/list_by_category.md)
-- Categories
+- #### Categories
   - [Listing Categories](/store-front/categories/index.md)
   - [Listing Sub Categories By Category](/store-front/categories/category_children.md)
-- Menus
+- #### Menus
   - [Listing Menus](/store-front/menus/index.md)
-- Pages
+- #### Pages
   - [listing Pages](/store-front/pages/index.md)    
