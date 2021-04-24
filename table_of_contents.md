@@ -1,7 +1,14 @@
 - Getting Started
   - [Query Filters](/docs/misc/query-filters.md)
-  - Entities
+- Entities
     - [Product](/docs/entities/product/product.md)
+    - [Upsell](/docs/entities/upsells/upsell.md)
+    - [Coupon](/docs/entities/coupon/coupon.md)
+    - [Customer](/docs/entities/customer/customer.md)
+    - [Address](/docs/entities/address/address.md)
+    - [Page](/docs/entities/page/page.md)
+    - [Menus](/docs/entities/menus/menu.md)
+  - [Errors](/docs/errors/index.md)
 - [Connect OAuth](/docs/oauth/index.md)
 - Store
   - [Store details](/docs/store/me.md)
@@ -38,6 +45,17 @@
   - [Create Category](/docs/categories/create.md)
   - [Update Category](/docs/categories/update.md)
   - [Delete Category](/docs/categories/delete.md)
+- Menus
+  - [List menus](/docs/menus/index.md)
+  - [Get menu](/docs/menus/get.md)
+  - [Create menu](/docs/menus/create.md)
+  - [Update menu](/docs/menus/update.md)
+- Coupons
+  - [List coupons](/docs/coupons/index.md)
+  - [Get coupon](/docs/coupons/get.md)
+  - [Create coupon](/docs/coupons/create.md)
+  - [Update coupon](/docs/coupons/update.md)
+  - [Delete coupon](/docs/coupons/delete.md)
 - Customers
     - [List Customers](/docs/customers/index.md)
     - [Get Customer](/docs/customers/get.md)
