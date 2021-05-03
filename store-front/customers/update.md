@@ -1,8 +1,8 @@
-# Create a customer
+# Update a customer account
 
 Endpoint: `https://my-store.youcan.shop/api/customers/account`
 
-Method: `GET`
+Method: `PUT`
 
 ## Parameters
 
