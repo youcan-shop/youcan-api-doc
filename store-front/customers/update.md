@@ -1,4 +1,4 @@
-# Update a customer account
+# Update the logged customer account
 
 Endpoint: `https://my-store.youcan.shop/api/customers/account`
 
