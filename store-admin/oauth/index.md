@@ -68,6 +68,8 @@ Response:
 }
 ```
 
+As an alternative, you can request, regenerate and revoke an access token from your seller-area in [Settings > Developer Settings](https://seller-area.youcan.shop/admin/settings/developer)
+
 <a name="refresh-token"></a>
 ## Refresh Token 
 
