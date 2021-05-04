@@ -4,19 +4,6 @@ Endpoint: `https://my-store.youcan.shop/api/customers/account`
 
 Method: `GET`
 
-## Parameters
-
-| Param Name | Param Type | Description | Required |
-| --- | --- | --- | --- |
-| `email` | string | Customer email | yes |
-| `password` | string | Customer password | yes |
-| `first_name` | string | Customer first name | non |
-| `last_name` | string | Customer last name | non |
-| `country` | string | Customer country | non |
-| `region` | string | Customer region | non |
-| `city` | string | Customer city | non |
-| `notes` | string | Notes | non |
-
 ## Response
 
 [200] OK

@@ -8,14 +8,15 @@ Method: `PUT`
 
 | Param Name | Param Type | Description | Required |
 | --- | --- | --- | --- |
-| `email` | string | Customer email | yes |
-| `password` | string | Customer password | yes |
-| `first_name` | string | Customer first name | yes |
-| `last_name` | string | Customer last name | yes |
-| `country` | string | Customer country | non |
-| `region` | string | Customer region | non |
-| `city` | string | Customer city | non |
-| `notes` | string | Notes | non |
+| `email` | string | Customer email | optional |
+| `password` | string | Customer password | optional |
+| `password_confirmation` | string | Customer password configuration | with password |
+| `first_name` | string | Customer first name | optional |
+| `last_name` | string | Customer last name | optional |
+| `country` | string | Customer country | optional |
+| `region` | string | Customer region | optional |
+| `city` | string | Customer city | optional |
+| `notes` | string | Notes | optional |
 
 ## Responses
 
