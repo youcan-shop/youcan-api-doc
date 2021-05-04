@@ -18,7 +18,18 @@ Method: `PUT`
 | `city` | string | Customer city | optional |
 | `notes` | string | Notes | optional |
 
-## Responses
+## Response
+
+To authenticate you get the customer token for the [Login endpoint](/store-front/customers/login.md) 
+
+[401] Unauthorized
+```json
+{
+    "status": 401,
+    "detail": "Unauthenticated.",
+    "meta": []
+}
+```
 
 [422] Unprocessable Entity
 

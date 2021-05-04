@@ -6,6 +6,17 @@ Method: `GET`
 
 ## Response
 
+To authenticate you get the customer token for the [Login endpoint](/store-front/customers/login.md) 
+
+[401] Unauthorized
+```json
+{
+    "status": 401,
+    "detail": "Unauthenticated.",
+    "meta": []
+}
+```
+
 [200] OK
 
 ```json
