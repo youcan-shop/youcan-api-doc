@@ -15,5 +15,8 @@
 - #### Pages
   - [listing Pages](/store-front/pages/index.md)    
 - #### Customer
+  - [Customer create](/store-front/customers/create.md)
+  - [Customer Login](/store-front/customers/login.md)
   - [Customer account show](/store-front/customers/show.md)
   - [Customer account update](/store-front/customers/update.md)
+  - [Customer orders](/store-front/customers/orders/index.md)
