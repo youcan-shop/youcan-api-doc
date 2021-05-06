@@ -14,3 +14,6 @@
   - [Listing Menus](/store-front/menus/index.md)
 - #### Pages
   - [listing Pages](/store-front/pages/index.md)    
+- #### Customer
+  - [Customer account show](/store-front/customers/show.md)
+  - [Customer account update](/store-front/customers/update.md)

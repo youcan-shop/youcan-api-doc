@@ -11,14 +11,25 @@ Method: `POST`
 | `email` | string | Customer email | yes |
 | `password` | string | Customer password | yes |
 | `password_confirmation` | string | Customer password configuration | yes |
-| `first_name` | string | Customer first name | non |
-| `last_name` | string | Customer last name | non |
-| `country` | string | Customer country | non |
-| `region` | string | Customer region | non |
-| `city` | string | Customer city | non |
-| `notes` | string | Notes | non |
+| `first_name` | string | Customer first name | optional |
+| `last_name` | string | Customer last name | optional |
+| `country` | string | Customer country | optional |
+| `region` | string | Customer region | optional |
+| `city` | string | Customer city | optional |
+| `notes` | string | Notes | optional |
 
 ## Response
+
+To authenticate you get the customer token for the [Login endpoint](/store-front/customers/login.md) 
+
+[401] Unauthorized
+```json
+{
+    "status": 401,
+    "detail": "Unauthenticated.",
+    "meta": []
+}
+```
 
 [201] Created
 
