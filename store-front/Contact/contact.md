@@ -23,3 +23,13 @@ Method: `POST`
   "meta": []
 }
 ```
+
+[500] Error 
+
+```json
+{
+    "status": 500,
+    "detail": "internal error occurred",
+    "meta": []
+}
+```
