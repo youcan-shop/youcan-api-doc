@@ -4,8 +4,6 @@ Endpoint: `https://api.youcan.shop/products/{id}`
 
 Method: `DELETE`
 
-<a name="response"></a>
-
 ## Responses
 
 [200] OK
