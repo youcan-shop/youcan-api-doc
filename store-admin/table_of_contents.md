@@ -17,6 +17,7 @@
   - [Listing Products](/store-admin/products/index.md)
   - [Get Product](/store-admin/products/get.md)
   - [Create Product](/store-admin/products/create.md)
+  - [Delete Product](/store-admin/products/delete.md)
 - #### Products Reviews
     - [Listing Reviews](/store-admin/products/reviews/index.md)
     - [Get Product Reviews](/store-admin/products/reviews/by_product.md)
