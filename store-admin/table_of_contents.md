@@ -2,6 +2,7 @@
   - Getting Started
   - [Query Filters](/store-admin/misc/query-filters.md)
   - [Connect OAuth](/store-admin/oauth/index.md)
+- #### [Errors](/store-admin/errors/index.md)
 - #### Entities
   - [Product](/store-admin/entities/product/product.md)
   - [Upsell](/store-admin/entities/upsells/upsell.md)
@@ -79,5 +80,3 @@
   - [Delete Shipping Zone](/store-admin/shipping-zones/delete.md)
   - [Create Shipping Rates](/store-admin/shipping-zones/rates/create.md)
   - [Update Shipping Rates](/store-admin/shipping-zones/rates/update.md)
-  
-- #### [Errors](/store-admin/errors/index.md)
