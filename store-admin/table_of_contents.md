@@ -10,7 +10,6 @@
   - [Address](/store-admin/entities/address/address.md)
   - [Page](/store-admin/entities/page/page.md)
   - [Menus](/store-admin/entities/menus/menu.md)
-  - [Errors](/store-admin/errors/index.md)
 - #### Store
   - [Store details](/store-admin/store/me.md)
 - #### Products
@@ -80,3 +79,5 @@
   - [Delete Shipping Zone](/store-admin/shipping-zones/delete.md)
   - [Create Shipping Rates](/store-admin/shipping-zones/rates/create.md)
   - [Update Shipping Rates](/store-admin/shipping-zones/rates/update.md)
+  
+- #### [Errors](/store-admin/errors/index.md)
