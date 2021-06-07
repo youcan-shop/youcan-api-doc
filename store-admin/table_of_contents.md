@@ -1,7 +1,7 @@
-- ## [Store admin](/store-admin/index)
-  - Getting Started
-  - [Query Filters](/store-admin/misc/query-filters)
-  - [Connect OAuth](/store-admin/oauth/index)
+- ### [Store admin](/store-admin/index)
+- #### Getting Started
+- #### [Query Filters](/store-admin/misc/query-filters)
+- #### [Connect OAuth](/store-admin/oauth/index)
 - #### [Errors](/store-admin/errors/index)
 - #### Entities
   - [Product](/store-admin/entities/product/product)

@@ -1,6 +1,6 @@
-- ## [Store front](/store-front/index) 
-  - Getting Started 
-  - [Query Filters](/store-front/misc/query-filters)
+- ### [Store front](/store-front/index) 
+- #### Getting Started 
+- #### [Query Filters](/store-front/misc/query-filters)
 - #### Entities
     - [Product](/store-front/entities/product/product)
 - #### Products
