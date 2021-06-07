@@ -20,7 +20,7 @@ Method: `POST`
 
 ## Response
 
-To authenticate you get the customer token for the [Login endpoint](/store-front/customers/login.md) 
+To authenticate you get the customer token for the [Login endpoint](/store-front/customers/login) 
 
 [401] Unauthorized
 ```json
