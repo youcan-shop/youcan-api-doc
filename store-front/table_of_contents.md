@@ -1,4 +1,4 @@
-- #### [Store front](/store-front/index) 
+- ## [Store front](/store-front/index) 
   - Getting Started 
   - [Query Filters](/store-front/misc/query-filters)
 - #### Entities

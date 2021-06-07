@@ -1,4 +1,4 @@
-- #### [Store admin](/store-admin/index)
+- ## [Store admin](/store-admin/index)
   - Getting Started
   - [Query Filters](/store-admin/misc/query-filters)
   - [Connect OAuth](/store-admin/oauth/index)
