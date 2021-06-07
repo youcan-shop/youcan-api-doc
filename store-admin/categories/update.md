@@ -14,7 +14,7 @@ Method: `PUT`
 | `image`              | File          | Category image        | no       |
 | `parent_id`          | uuid          | Categorie's parent id | no       |
 | `show_on_collection` | boolean       | Category visibility   | no       |
-| `meta`      | [Meta](create.md#meta) | Category metadata     | no       |
+| `meta`      | [Meta](/store-admin/categories/create#meta) | Category metadata     | no       |
 
 ## Response
 

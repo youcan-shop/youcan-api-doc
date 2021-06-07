@@ -12,7 +12,7 @@ Method: `PUT`
 | description | string, null | Description | no |
 | product_id | uuid | Product id concerned by this upsell | yes |
 | product_offer_ids |  array | Array of product ids the upsell will display | yes |
-| actions | array of objects [[Action](../entities/upsells/upsell.md)] | Yes, No buttons with their setting | yes |
+| actions | array of objects [[Action](/store-admin/entities/upsells/upsell)] | Yes, No buttons with their setting | yes |
 | footer | string, null | Text displayed in bottom for upsell | no |
 
 ## Response

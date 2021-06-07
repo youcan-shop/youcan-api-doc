@@ -1,22 +1,22 @@
-- #### [Store front](/store-front/index.md) 
+- #### [Store front](/store-front/index) 
   - Getting Started 
-  - [Query Filters](/store-front/misc/query-filters.md)
+  - [Query Filters](/store-front/misc/query-filters)
 - #### Entities
-    - [Product](/store-front/entities/product/product.md)
+    - [Product](/store-front/entities/product/product)
 - #### Products
-  - [Listing Products](/store-front/products/index.md)
-  - [Show Product](/store-front/products/show.md)
-  - [Listing Products By Category](/store-front/products/list_by_category.md)
+  - [Listing Products](/store-front/products/index)
+  - [Show Product](/store-front/products/show)
+  - [Listing Products By Category](/store-front/products/list_by_category)
 - #### Categories
-  - [Listing Categories](/store-front/categories/index.md)
-  - [Listing Sub Categories By Category](/store-front/categories/category_children.md)
+  - [Listing Categories](/store-front/categories/index)
+  - [Listing Sub Categories By Category](/store-front/categories/category_children)
 - #### Menus
-  - [Listing Menus](/store-front/menus/index.md)
+  - [Listing Menus](/store-front/menus/index)
 - #### Pages
-  - [listing Pages](/store-front/pages/index.md)    
+  - [listing Pages](/store-front/pages/index)    
 - #### Customer
-  - [Customer create](/store-front/customers/create.md)
-  - [Customer Login](/store-front/customers/login.md)
-  - [Customer account show](/store-front/customers/show.md)
-  - [Customer account update](/store-front/customers/update.md)
-  - [Customer orders](/store-front/customers/orders/index.md)
+  - [Customer create](/store-front/customers/create)
+  - [Customer Login](/store-front/customers/login)
+  - [Customer account show](/store-front/customers/show)
+  - [Customer account update](/store-front/customers/update)
+  - [Customer orders](/store-front/customers/orders/index)
