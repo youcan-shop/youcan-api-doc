@@ -1,5 +1,5 @@
 - #### [Store admin](/store-admin/index)
-  - Getting Started
+  - [Getting Started](/store-admin/index)
   - [Query Filters](/store-admin/misc/query-filters)
   - [Connect OAuth](/store-admin/oauth/index)
 - #### [Errors](/store-admin/errors/index)
