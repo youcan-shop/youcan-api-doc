@@ -1,5 +1,5 @@
 - #### [Store front](/store-front/index) 
-  - Getting Started 
+  - [Getting Started](/store-front/index) 
   - [Query Filters](/store-front/misc/query-filters)
 - #### Entities
     - [Product](/store-front/entities/product/product)
