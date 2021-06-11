@@ -4,19 +4,19 @@
 - #### Entities
     - [Product](/store-front/entities/product/product)
 - #### Products
-  - [Listing Products](/store-front/products/index)
-  - [Show Product](/store-front/products/show)
-  - [Listing Products By Category](/store-front/products/list_by_category)
+  - [Listing](/store-front/products/index)
+  - [Show](/store-front/products/show)
+  - [Listing By Category](/store-front/products/list_by_category)
 - #### Categories
-  - [Listing Categories](/store-front/categories/index)
-  - [Listing Sub Categories By Category](/store-front/categories/category_children)
+  - [Listing](/store-front/categories/index)
+  - [Listing Sub Categories](/store-front/categories/category_children)
 - #### Menus
-  - [Listing Menus](/store-front/menus/index)
+  - [Listing](/store-front/menus/index)
 - #### Pages
-  - [listing Pages](/store-front/pages/index)    
+  - [listing](/store-front/pages/index)    
 - #### Customer
-  - [Customer create](/store-front/customers/create)
-  - [Customer Login](/store-front/customers/login)
-  - [Customer account show](/store-front/customers/show)
-  - [Customer account update](/store-front/customers/update)
-  - [Customer orders](/store-front/customers/orders/index)
+  - [Create](/store-front/customers/create)
+  - [Login](/store-front/customers/login)
+  - [Show Account](/store-front/customers/show)
+  - [Update Account](/store-front/customers/update)
+  - [Orders](/store-front/customers/orders/index)
