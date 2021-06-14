@@ -1,5 +1,4 @@
 - #### [Store admin](/store-admin/index)
-  - [Getting Started](/store-admin/index)
   - [Query Filters](/store-admin/misc/query-filters)
   - [Connect OAuth](/store-admin/oauth/index)
 - #### [Errors](/store-admin/errors/index)
@@ -12,7 +11,7 @@
   - [Page](/store-admin/entities/page/page)
   - [Menus](/store-admin/entities/menus/menu)
 - #### Store
-  - [Store details](/store-admin/store/me)
+  - [Store details](/store-admin/store/me) <span class="request-method-get"></span>
 - #### Products
   - [Listing Products](/store-admin/products/index)
   - [Get Product](/store-admin/products/get)
