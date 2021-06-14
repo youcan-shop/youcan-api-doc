@@ -18,64 +18,64 @@
   - [Create Product](/store-admin/products/create) <span class="request-method-post"></span>
   - [Delete Product](/store-admin/products/delete) <span class="request-method-delete"></span>
 - #### Products Reviews
-    - [Listing Reviews](/store-admin/products/reviews/index) <span class="request-method-get"></span>
-    - [Get Product Reviews](/store-admin/products/reviews/by_product) <span class="request-method-get"></span>
-    - [Get Review](/store-admin/products/reviews/get) <span class="request-method-get"></span>
-    - [Create Review](/store-admin/products/reviews/create) <span class="request-method-post"></span>
-    - [Update Review](/store-admin/products/reviews/update) <span class="request-method-put"></span>
-    - [Approve Review](/store-admin/products/reviews/approve) <span class="request-method-post"></span>
-    - [Reject Review](/store-admin/products/reviews/reject) <span class="request-method-post"></span>
-    - [Delete Review](/store-admin/products/reviews/delete) <span class="request-method-delete"></span>
+    - [Listing](/store-admin/products/reviews/index) <span class="request-method-get"></span>
+    - [Get By Product](/store-admin/products/reviews/by_product) <span class="request-method-get"></span>
+    - [Show](/store-admin/products/reviews/get) <span class="request-method-get"></span>
+    - [Create](/store-admin/products/reviews/create) <span class="request-method-post"></span>
+    - [Update](/store-admin/products/reviews/update) <span class="request-method-put"></span>
+    - [Approve](/store-admin/products/reviews/approve) <span class="request-method-post"></span>
+    - [Reject](/store-admin/products/reviews/reject) <span class="request-method-post"></span>
+    - [Delete](/store-admin/products/reviews/delete) <span class="request-method-delete"></span>
 - #### Products Inventory
-    - [Increment Product Inventory](/store-admin/products/inventory/increment) <span class="request-method-post"></span>
-    - [Decrement Product Inventory](/store-admin/products/inventory/decrement) <span class="request-method-post"></span>
+    - [Increment](/store-admin/products/inventory/increment) <span class="request-method-post"></span>
+    - [Decrement](/store-admin/products/inventory/decrement) <span class="request-method-post"></span>
 - #### Orders
-  - [Listing Orders](/store-admin/orders/index) <span class="request-method-get"></span>
-  - [Get Order](/store-admin/orders/get) <span class="request-method-get"></span>
-  - [Fulfill Order](/store-admin/orders/fulfill) <span class="request-method-post"></span>
-  - [Create Order](/store-admin/orders/create) <span class="request-method-post"></span>
+  - [Listing](/store-admin/orders/index) <span class="request-method-get"></span>
+  - [Show](/store-admin/orders/get) <span class="request-method-get"></span>
+  - [Fulfill](/store-admin/orders/fulfill) <span class="request-method-post"></span>
+  - [Create](/store-admin/orders/create) <span class="request-method-post"></span>
 - #### Upsells
-  - [Listing upsells](/store-admin/upsells/index) <span class="request-method-get"></span>
-  - [Get Upsell](/store-admin/upsells/get) <span class="request-method-get"></span>
-  - [Create Upsell](/store-admin/upsells/create) <span class="request-method-post"></span>
-  - [Update Upsell](/store-admin/upsells/update) <span class="request-method-put"></span>
-  - [Delete Upsell](/store-admin/upsells/delete) <span class="request-method-delete"></span>
+  - [Listing](/store-admin/upsells/index) <span class="request-method-get"></span>
+  - [Get](/store-admin/upsells/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/upsells/create) <span class="request-method-post"></span>
+  - [Update](/store-admin/upsells/update) <span class="request-method-put"></span>
+  - [Delete](/store-admin/upsells/delete) <span class="request-method-delete"></span>
 - #### Categories
-  - [List Categories](/store-admin/categories/index) <span class="request-method-get"></span>
-  - [Get Category](/store-admin/categories/get) <span class="request-method-get"></span>
-  - [Create Category](/store-admin/categories/create) <span class="request-method-post"></span>
-  - [Update Category](/store-admin/categories/update) <span class="request-method-put"></span>
-  - [Delete Category](/store-admin/categories/delete) <span class="request-method-delete"></span>
+  - [Listing](/store-admin/categories/index) <span class="request-method-get"></span>
+  - [Show](/store-admin/categories/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/categories/create) <span class="request-method-post"></span>
+  - [Update](/store-admin/categories/update) <span class="request-method-put"></span>
+  - [Delete](/store-admin/categories/delete) <span class="request-method-delete"></span>
 - #### Menus
-  - [List menus](/store-admin/menus/index) <span class="request-method-get"></span>
-  - [Get menu](/store-admin/menus/get) <span class="request-method-get"></span>
-  - [Create menu](/store-admin/menus/create) <span class="request-method-post"></span>
-  - [Update menu](/store-admin/menus/update) <span class="request-method-put"></span>
+  - [List](/store-admin/menus/index) <span class="request-method-get"></span>
+  - [Get](/store-admin/menus/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/menus/create) <span class="request-method-post"></span>
+  - [Update](/store-admin/menus/update) <span class="request-method-put"></span>
 - #### Coupons
-  - [List coupons](/store-admin/coupons/index) <span class="request-method-get"></span>
-  - [Get coupon](/store-admin/coupons/get) <span class="request-method-get"></span>
-  - [Create coupon](/store-admin/coupons/create) <span class="request-method-post"></span>
-  - [Update coupon](/store-admin/coupons/update) <span class="request-method-put"></span>
-  - [Delete coupon](/store-admin/coupons/delete) <span class="request-method-delete"></span>
+  - [Listing](/store-admin/coupons/index) <span class="request-method-get"></span>
+  - [Get](/store-admin/coupons/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/coupons/create) <span class="request-method-post"></span>
+  - [Update](/store-admin/coupons/update) <span class="request-method-put"></span>
+  - [Delete](/store-admin/coupons/delete) <span class="request-method-delete"></span>
 - #### Customers
-  - [List Customers](/store-admin/customers/index) <span class="request-method-get"></span>
-  - [Get Customer](/store-admin/customers/get) <span class="request-method-get"></span>
-  - [Create Customer](/store-admin/customers/create) <span class="request-method-post"></span>
-  - [Update Customer](/store-admin/customers/update) <span class="request-method-put"></span>
-  - [Delete Customer](/store-admin/customers/delete) <span class="request-method-delete"></span>
-  - [Create Customer Address](/store-admin/customers/addresses/create) <span class="request-method-post"></span>
-  - [Update Customer Address](/store-admin/customers/addresses/update) <span class="request-method-put"></span>
+  - [List](/store-admin/customers/index) <span class="request-method-get"></span>
+  - [Show](/store-admin/customers/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/customers/create) <span class="request-method-post"></span>
+  - [Update](/store-admin/customers/update) <span class="request-method-put"></span>
+  - [Delete](/store-admin/customers/delete) <span class="request-method-delete"></span>
+  - [Create Address](/store-admin/customers/addresses/create) <span class="request-method-post"></span>
+  - [Update Address](/store-admin/customers/addresses/update) <span class="request-method-put"></span>
 - #### Pages
-  - [List Pages](/store-admin/pages/index) <span class="request-method-get"></span>
-  - [Get Page](/store-admin/pages/get) <span class="request-method-get"></span>
-  - [Create Page](/store-admin/pages/create) <span class="request-method-post"></span>
-  - [Update Page](/store-admin/pages/update) <span class="request-method-put"></span>
-  - [Delete Page](/store-admin/pages/delete) <span class="request-method-delete"></span>
+  - [Listing](/store-admin/pages/index) <span class="request-method-get"></span>
+  - [Get](/store-admin/pages/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/pages/create) <span class="request-method-post"></span>
+  - [Update](/store-admin/pages/update) <span class="request-method-put"></span>
+  - [Delete](/store-admin/pages/delete) <span class="request-method-delete"></span>
 - #### Shipping Zones
-  - [List Shipping Zones](/store-admin/shipping-zones/index) <span class="request-method-get"></span>
-  - [Get Shipping Zone](/store-admin/shipping-zones/get) <span class="request-method-get"></span>
-  - [Create Shipping Zone](/store-admin/shipping-zones/create) <span class="request-method-post"></span>
-  - [Update Shipping Zone](/store-admin/shipping-zones/update) <span class="request-method-put"></span>
-  - [Delete Shipping Zone](/store-admin/shipping-zones/delete) <span class="request-method-delete"></span>
-  - [Create Shipping Rates](/store-admin/shipping-zones/rates/create) <span class="request-method-post"></span>
-  - [Update Shipping Rates](/store-admin/shipping-zones/rates/update) <span class="request-method-put"></span>
+  - [Listing](/store-admin/shipping-zones/index) <span class="request-method-get"></span>
+  - [Show](/store-admin/shipping-zones/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/shipping-zones/create) <span class="request-method-post"></span>
+  - [Update](/store-admin/shipping-zones/update) <span class="request-method-put"></span>
+  - [Delete](/store-admin/shipping-zones/delete) <span class="request-method-delete"></span>
+  - [Create](/store-admin/shipping-zones/rates/create) <span class="request-method-post"></span>
+  - [Update](/store-admin/shipping-zones/rates/update) <span class="request-method-put"></span>
