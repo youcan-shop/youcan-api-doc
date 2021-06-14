@@ -13,10 +13,10 @@
 - #### Store
   - [Store details](/store-admin/store/me) <span class="request-method-get"></span>
 - #### Products
-  - [Listing Products](/store-admin/products/index) <span class="request-method-get"></span>
-  - [Get Product](/store-admin/products/get) <span class="request-method-get"></span>
-  - [Create Product](/store-admin/products/create) <span class="request-method-post"></span>
-  - [Delete Product](/store-admin/products/delete) <span class="request-method-delete"></span>
+  - [Listing](/store-admin/products/index) <span class="request-method-get"></span>
+  - [Show](/store-admin/products/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/products/create) <span class="request-method-post"></span>
+  - [Delete](/store-admin/products/delete) <span class="request-method-delete"></span>
 - #### Products Reviews
     - [Listing](/store-admin/products/reviews/index) <span class="request-method-get"></span>
     - [Get By Product](/store-admin/products/reviews/by_product) <span class="request-method-get"></span>
