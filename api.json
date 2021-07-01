@@ -1,0 +1,698 @@
+{
+  "storeFront": [
+    {
+      "name": "Categories",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/api/categories",
+          "method": "GET"
+        },
+        {
+          "name": "Listing Sub categories",
+          "url": "https://{domain}/api/categories/{id}/children",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/api/products",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/api/products/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Listing by category",
+          "url": "https://{domain}/api/categories/{id}/products",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Menus",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/api/menus",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Pages",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/api/pages",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Customer",
+      "endpoints": [
+        {
+          "name": "Create",
+          "url": "https://{domain}/api/customers",
+          "method": "POST",
+          "body": {
+            "email": true,
+            "password": true,
+            "password_confirmation": true,
+            "first_name": false,
+            "last_name": false,
+            "country": false,
+            "region": false,
+            "city": false,
+            "notes": false
+          }
+        },
+        {
+          "name": "Login",
+          "url": "https://{domain}/api/customers/login",
+          "method": "POST",
+          "body": {
+            "email": true,
+            "password": true
+          }
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/api/customers/account",
+          "method": "GET"
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/api/customers/account",
+          "method": "PUT",
+          "body": {
+            "email": false,
+            "password": false,
+            "password_confirmation": false,
+            "first_name": false,
+            "last_name": false,
+            "country": false,
+            "region": false,
+            "city": false,
+            "notes": false
+          }
+        },
+        {
+          "name": "Get orders",
+          "url": "https://{domain}/api/customers/orders",
+          "method": "GET"
+        }
+      ]
+    }
+  ],
+  "storeAdmin": [
+    {
+      "name": "Store",
+      "endpoints": [
+        {
+          "name": "Show",
+          "url": "https://{domain}/me",
+          "method": "GET"
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/products",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/products/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/products",
+          "method": "POST",
+          "body": {
+            "name": true,
+            "description": false,
+            "visibility": false,
+            "track_inventory": false,
+            "inventory": false,
+            "has_variants": true,
+            "price": true,
+            "compare_at_price": false,
+            "cost_price": false,
+            "variant_options": false,
+            "categories": false,
+            "variants": false,
+            "vendors": false
+          }
+        },
+        {
+          "name": "Delete",
+          "url": "https://{domain}/products/{id}",
+          "method": "DELETE"
+        }
+      ]
+    },
+    {
+      "name": "Products Reviews",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/reviews",
+          "method": "GET"
+        },
+        {
+          "name": "Get by product",
+          "url": "https://{domain}/products/{id}/reviews",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/reviews/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/products/{id}/reviews",
+          "method": "POST",
+          "body": {
+            "ratings": true,
+            "email": true,
+            "first_name": true,
+            "last_name": false,
+            "content": false,
+            "images": false
+          }
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/products/{id}/reviews",
+          "method": "PUT",
+          "body": {
+            "ratings": false,
+            "email": false,
+            "first_name": false,
+            "last_name": false,
+            "content": false,
+            "images": false
+          }
+        },
+        {
+          "name": "Approve",
+          "url": "https://{domain}/reviews/{id}/approve",
+          "method": "PUT"
+        },
+        {
+          "name": "Reject",
+          "url": "https://{domain}/reviews/{id}/reject",
+          "method": "PUT"
+        },
+        {
+          "name": "Delete",
+          "url": "https://{domain}/reviews/{id}",
+          "method": "DELETE"
+        }
+      ]
+    },
+    {
+      "name": "Products Inventory",
+      "endpoints": [
+        {
+          "name": "Increment",
+          "url": "https://{domain}/products/{id}/inventory/increment",
+          "method": "PUT"
+        },
+        {
+          "name": "Decrement",
+          "url": "https://{domain}/products/{id}/inventory/decrement",
+          "method": "PUT"
+        }
+      ]
+    },
+    {
+      "name": "Orders",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/orders",
+          "method": "GET"
+        },
+        {
+          "name": "Search",
+          "url": "https://{domain}/orders?q={SEARCH_VALUE}",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/orders/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Fulfill",
+          "url": "https://{domain}/orders/{id}/close",
+          "method": "PUT",
+          "body": {
+            "cancel_order": false
+          }
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/orders",
+          "method": "POST",
+          "body": {
+            "customer_id": true,
+            "variants": true,
+            "selected_shipping_estimation_id": true,
+            "shipping_address": false,
+            "payment_address": false,
+            "extra_fields": false,
+            "coupon_id": false,
+            "discount": false,
+            "notes": false,
+            "tags": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upsells",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/upsells",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/upsells/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/upsells",
+          "method": "POST",
+          "body": {
+            "name": true,
+            "description": false,
+            "product_id": true,
+            "product_offer_ids": true,
+            "actions": true,
+            "footer": false
+          }
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/upsells{id}",
+          "method": "PUT",
+          "body": {
+            "name": false,
+            "description": false,
+            "product_id": false,
+            "product_offer_ids": false,
+            "actions": false,
+            "footer": false
+          }
+        },
+        {
+          "name": "Delete",
+          "url": "https://{domain}/upsells/{id}",
+          "method": "DELETE"
+        }
+      ]
+    },
+    {
+      "name": "Categories",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/categories",
+          "method": "GET"
+        },
+        {
+          "name": "Searching",
+          "url": "https://{domain}/categories?q={SEARCH_VALUE}",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/categories/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/categories",
+          "method": "POST",
+          "body": {
+            "name": true,
+            "slug": false,
+            "description": false,
+            "image": false,
+            "parent_id": false,
+            "show_on_collection": false,
+            "meta": false
+          }
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/categories{id}",
+          "method": "PUT",
+          "body": {
+            "name": false,
+            "slug": false,
+            "description": false,
+            "image": false,
+            "parent_id": false,
+            "show_on_collection": false,
+            "meta": false
+          }
+        },
+        {
+          "name": "Delete",
+          "url": "https://{domain}/categories/{id}",
+          "method": "DELETE"
+        }
+      ]
+    },
+    {
+      "name": "Menus",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/menus",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/menus/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/menus",
+          "method": "POST",
+          "body": {
+            "name": true,
+            "slug": true,
+            "links": false,
+            "links.children": false
+          }
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/menus{id}",
+          "method": "PUT",
+          "body": {
+            "name": false,
+            "slug": false,
+            "links": false,
+            "links.children": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coupons",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/coupons",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/coupons/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/coupons",
+          "method": "POST",
+          "body": {
+            "code": true,
+            "description": true,
+            "value": true,
+            "type": true,
+            "start_date": true,
+            "end_date": false,
+            "max_usage": false,
+            "product_ids": true
+          }
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/coupons{id}",
+          "method": "PUT",
+          "body": {
+            "code": false,
+            "description": false,
+            "value": false,
+            "type": false,
+            "start_date": false,
+            "end_date": false,
+            "max_usage": false,
+            "product_ids": false
+          }
+        },
+        {
+          "name": "Delete",
+          "url": "https://{domain}/coupons/{id}",
+          "method": "DELETE"
+        }
+      ]
+    },
+    {
+      "name": "Customers",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/customers",
+          "method": "GET"
+        },
+        {
+          "name": "Searching",
+          "url": "https://{seller_area}/admin/api/customers?q={SEARCH_VALUE}",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/customers/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/customers",
+          "method": "POST",
+          "body": {
+            "first_name": true,
+            "last_name": false,
+            "email": false,
+            "phone": false,
+            "country": false,
+            "region": false,
+            "city": false,
+            "notes": false
+          }
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/customers{id}",
+          "method": "PUT",
+          "body": {
+            "first_name": true,
+            "last_name": false,
+            "email": false,
+            "phone": false,
+            "country": false,
+            "region": false,
+            "city": false,
+            "notes": false
+          }
+        },
+        {
+          "name": "Delete",
+          "url": "https://{domain}/customers/{id}",
+          "method": "DELETE"
+        },
+        {
+          "name": "Create adresse",
+          "url": "https://{domain}/customers/{id}/addresses",
+          "method": "POST",
+          "body": {
+            "first_name": true,
+            "last_name": false,
+            "company": false,
+            "phone": false,
+            "first_line": false,
+            "second_line": false,
+            "state": false,
+            "region": false,
+            "city": false,
+            "zip_code": false,
+            "country_code": false,
+            "is_default": false
+          }
+        },
+        {
+          "name": "Update adresse",
+          "url": "https://{domain}/customers/{id}/addresses/{addressId}",
+          "method": "PUT",
+          "body": {
+            "first_name": false,
+            "last_name": false,
+            "company": false,
+            "phone": false,
+            "first_line": false,
+            "second_line": false,
+            "state": false,
+            "region": false,
+            "city": false,
+            "zip_code": false,
+            "country_code": false,
+            "is_default": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pages",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/pages",
+          "method": "GET"
+        },
+        {
+          "name": "Searching",
+          "url": "https://{domain}/pages?q={SEARCH_VALUE}",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/pages/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/pages",
+          "method": "POST",
+          "body": {
+            "name": true,
+            "slug": false,
+            "content": false,
+            "visibility": false,
+            "template": false,
+            "is_using_page_builder": false,
+            "meta.title": false,
+            "meta.description": false
+          }
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/pages{id}",
+          "method": "PUT",
+          "body": {
+            "name": true,
+            "slug": false,
+            "content": false,
+            "visibility": false,
+            "template": false,
+            "is_using_page_builder": false,
+            "meta.title": false,
+            "meta.description": false
+          }
+        },
+        {
+          "name": "Delete",
+          "url": "https://{domain}/pages/{id}",
+          "method": "DELETE"
+        }
+      ]
+    },
+    {
+      "name": "Shipping Zones",
+      "endpoints": [
+        {
+          "name": "Listing",
+          "url": "https://{domain}/shipping-zones",
+          "method": "GET"
+        },
+        {
+          "name": "Show",
+          "url": "https://{domain}/shipping-zones/{id}",
+          "method": "GET"
+        },
+        {
+          "name": "Create",
+          "url": "https://{domain}/shipping-zones",
+          "method": "POST",
+          "body": {
+            "name": true,
+            "display_name": true,
+            "countries": false,
+            "is_free": false,
+            "is_active": false,
+            "rate_type": false,
+            "rates": false,
+            "rates.*.min": true,
+            "rates.*.max": false,
+            "rates.*.price": true
+          }
+        },
+        {
+          "name": "Update",
+          "url": "https://{domain}/shipping-zones{id}",
+          "method": "PUT",
+          "body": {
+            "name": false,
+            "display_name": false,
+            "countries": false,
+            "is_free": false,
+            "is_active": false,
+            "rate_type": false,
+            "rates": false,
+            "rates.*.min": false,
+            "rates.*.max": false,
+            "rates.*.price": false
+          }
+        },
+        {
+          "name": "Delete",
+          "url": "https://{domain}/shipping-zones/{id}",
+          "method": "DELETE"
+        },
+        {
+          "name": "Create Shipping Rate",
+          "url": "https://{domain}/shipping-zones/{id}/rates",
+          "method": "POST",
+          "body": {
+            "rates": false,
+            "rates.*.min": true,
+            "rates.*.max": false,
+            "rates.*.price": true
+          }
+        },
+        {
+          "name": "Update adresse",
+          "url": "https://{domain}/shipping-zones/{id}/rates/{ratesId}",
+          "method": "PUT",
+          "body": {
+            "rates": false,
+            "rates.*.min": false,
+            "rates.*.max": false,
+            "rates.*.price": false
+          }
+        }
+      ]
+    }
+  ]
+}
