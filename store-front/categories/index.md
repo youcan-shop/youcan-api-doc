@@ -23,16 +23,16 @@ Method: `GET`
             "image": "stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS.png",
             "slug": "category-1",
             "show_on_collection": true,
-            "public_url": "http://my-store.dotshop.com/collections/category-1",
+            "public_url": "http://my-store.youcan.shop/collections/category-1",
             "description": "The first ranking",
             "has_parent": false,
             "parent_id": null,
             "is_default": false,
             "images": {
-                "original": "http://cdn.dotshop.com/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS.png",
-                "sm": "http://cdn.dotshop.com/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_sm.png",
-                "md": "http://cdn.dotshop.com/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_md.png",
-                "lg": "http://cdn.dotshop.com/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_lg.png"
+                "original": "http://cdn.youcan.shop/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS.png",
+                "sm": "http://cdn.youcan.shop/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_sm.png",
+                "md": "http://cdn.youcan.shop/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_md.png",
+                "lg": "http://cdn.youcan.shop/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_lg.png"
             },
             "depth": 0,
             "meta": {
@@ -52,16 +52,16 @@ Method: `GET`
             "image": "stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS.png",
             "slug": "category-2",
             "show_on_collection": true,
-            "public_url": "http://my-store.dotshop.com/collections/category-2",
+            "public_url": "http://my-store.youcan.shop/collections/category-2",
             "description": "The second ranking",
             "has_parent": false,
             "parent_id": null,
             "is_default": false,
             "images": {
-                "original": "http://cdn.dotshop.com/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS.png",
-                "sm": "http://cdn.dotshop.com/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_sm.png",
-                "md": "http://cdn.dotshop.com/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_md.png",
-                "lg": "http://cdn.dotshop.com/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_lg.png"
+                "original": "http://cdn.youcan.shop/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS.png",
+                "sm": "http://cdn.youcan.shop/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_sm.png",
+                "md": "http://cdn.youcan.shop/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_md.png",
+                "lg": "http://cdn.youcan.shop/stores/default/categories/EPbYE9k2Pc4H4F9CUdzqHgj9iNxqfp8GwS0uOqtS_lg.png"
             },
             "depth": 0,
             "meta": {

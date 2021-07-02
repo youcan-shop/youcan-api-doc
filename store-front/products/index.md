@@ -23,8 +23,8 @@ Method: `GET`
             "id": "1d7e9ec3-77e5-4bb2-bffd-d36b97b1dfa3",
             "name": "Second product",
             "slug": "product-2",
-            "public_url": "http://my-store.dotshop.com/products/product-2",
-            "thumbnail": "http://cdn.dotshop.com/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr_md.png",
+            "public_url": "http://my-store.youcan.shop/products/product-2",
+            "thumbnail": "http://cdn.youcan.shop/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr_md.png",
             "description": "<p>The second product</p>",
             "price": 200,
             "compare_at_price": 250,
@@ -38,7 +38,7 @@ Method: `GET`
                 "images": [
                     {
                         "path": "stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr.png",
-                        "link": "http://cdn.dotshop.com/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr.png"
+                        "link": "http://cdn.youcan.shop/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr.png"
                     }
                 ]
             },
@@ -47,13 +47,13 @@ Method: `GET`
                     "id": "6d626432-3246-4202-93c6-afbf5b974dc8",
                     "name": "stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr.png",
                     "type": 1,
-                    "url": "http://cdn.dotshop.com/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr.png",
+                    "url": "http://cdn.youcan.shop/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr.png",
                     "order": 1,
                     "variations": {
-                        "original": "http://cdn.dotshop.com/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr.png",
-                        "sm": "http://cdn.dotshop.com/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr_sm.png",
-                        "md": "http://cdn.dotshop.com/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr_md.png",
-                        "lg": "http://cdn.dotshop.com/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr_lg.png"
+                        "original": "http://cdn.youcan.shop/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr.png",
+                        "sm": "http://cdn.youcan.shop/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr_sm.png",
+                        "md": "http://cdn.youcan.shop/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr_md.png",
+                        "lg": "http://cdn.youcan.shop/stores/default/products/qhxL6LFncoN0cQG2vu91JrUTrLBUy4zTXxgdvwWr_lg.png"
                     }
                 }
             ]

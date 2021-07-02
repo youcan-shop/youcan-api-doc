@@ -24,7 +24,7 @@ Method: `GET`
             "name": "Silver Rhodium Wedding Ring",
             "slug": "silver-rhodium-wedding-ring",
             "public_url": null,
-            "thumbnail": "http://cdn.dotshop.com/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_md.jpeg",
+            "thumbnail": "http://cdn.youcan.shop/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_md.jpeg",
             "description": "Lorem ipsum dollor..",
             "price": 27.54,
             "compare_at_price": null,
@@ -53,13 +53,13 @@ Method: `GET`
                     "id": "14cc6217-0d8e-4f6e-b746-7e8f1736747f",
                     "name": "stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA.jpeg",
                     "type": 1,
-                    "url": "http://cdn.dotshop.com/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA.jpeg",
+                    "url": "http://cdn.youcan.shop/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA.jpeg",
                     "order": 1,
                     "variations": {
-                        "original": "http://cdn.dotshop.com/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA.jpeg",
-                        "sm": "http://cdn.dotshop.com/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_sm.jpeg",
-                        "md": "http://cdn.dotshop.com/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_md.jpeg",
-                        "lg": "http://cdn.dotshop.com/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_lg.jpeg"
+                        "original": "http://cdn.youcan.shop/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA.jpeg",
+                        "sm": "http://cdn.youcan.shop/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_sm.jpeg",
+                        "md": "http://cdn.youcan.shop/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_md.jpeg",
+                        "lg": "http://cdn.youcan.shop/stores/my-store/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_lg.jpeg"
                     }
                 }
             ]
@@ -69,7 +69,7 @@ Method: `GET`
             "name": "Men's Silver Blue Ebony Ring",
             "slug": "mens-silver-blue-ebony-ring",
             "public_url": null,
-            "thumbnail": "http://cdn.dotshop.com/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh_md.jpeg",
+            "thumbnail": "http://cdn.youcan.shop/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh_md.jpeg",
             "description": "Lorem ipsum dollor..",
             "price": 84.46,
             "compare_at_price": null,
@@ -97,13 +97,13 @@ Method: `GET`
                     "id": "b7bc9ea3-4251-43b6-8dcf-02c5e4158804",
                     "name": "stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh.jpeg",
                     "type": 1,
-                    "url": "http://cdn.dotshop.com/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh.jpeg",
+                    "url": "http://cdn.youcan.shop/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh.jpeg",
                     "order": 1,
                     "variations": {
-                        "original": "http://cdn.dotshop.com/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh.jpeg",
-                        "sm": "http://cdn.dotshop.com/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh_sm.jpeg",
-                        "md": "http://cdn.dotshop.com/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh_md.jpeg",
-                        "lg": "http://cdn.dotshop.com/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh_lg.jpeg"
+                        "original": "http://cdn.youcan.shop/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh.jpeg",
+                        "sm": "http://cdn.youcan.shop/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh_sm.jpeg",
+                        "md": "http://cdn.youcan.shop/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh_md.jpeg",
+                        "lg": "http://cdn.youcan.shop/stores/my-store/products/sp3LiNOCQTQilYKOU1SFvOLdG1CB1hQDFhy4qsoh_lg.jpeg"
                     }
                 }
             ]

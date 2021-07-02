@@ -79,7 +79,7 @@ Ideally the access token has a lifetime of one year, unless it's revoked. You ca
 $http = new GuzzleHttp\Client;
 
 $response = $http->post(
-    'http://seller-area.dotshop.com/admin/oauth/token',
+    'http://seller-area.youcan.shop/admin/oauth/token',
     [
         'form_params' => [
             'grant_type'    => 'refresh_token',

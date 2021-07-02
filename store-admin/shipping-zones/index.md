@@ -9,6 +9,15 @@ Method: `GET`
 - `sort field`:
   - `created_at`: Shipping zone creation date
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://api.youcan.shop/shipping-zones?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `address`
+
 ## Response
 
 [200]

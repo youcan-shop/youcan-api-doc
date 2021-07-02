@@ -4,6 +4,15 @@ Endpoint: `https://api.youcan.shop/shipping-zones/{id}`
 
 Method: `GET`
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://api.youcan.shop/shipping-zones/{id}?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `address`
+
 ## Responses
 
 [200] OK

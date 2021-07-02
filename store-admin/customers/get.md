@@ -4,6 +4,16 @@ Endpoint: `https://api.youcan.shop/customers/{id}`
 
 Method: `GET`
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://api.youcan.shop/customers/{id}?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `address`
+- `orders`
+
 <a name="response"></a>
 
 ## Responses
@@ -17,7 +27,7 @@ Method: `GET`
     "last_name": "customer_last_name",
     "full_name": "customer_full_name",
     "email": "customer_email",
-    "avatar": "https://www.gravatar.com/avatar/f287649f7dd2d340b5e22704b3622ecd?s=100&d=http://api.dotshop.com/store-admin/images/generic_avatar.png",
+    "avatar": "https://www.gravatar.com/avatar/f287649f7dd2d340b5e22704b3622ecd?s=100&d=http://api.youcan.shop/store-admin/images/generic_avatar.png",
     "phone": "+212706650843",
     "country": "Morocco",
     "region": "my_region",
@@ -28,7 +38,7 @@ Method: `GET`
     "updated_at": "2021-04-15T13:55:10+00:00",
     "deleted_at": null,
     "links": {
-        "edit": "http://seller-area.dotshop.com/admin/customers/da4d2666-33d2-47de-881b-3dad8c4abf62/edit"
+        "edit": "http://seller-area.youcan.shop/admin/customers/da4d2666-33d2-47de-881b-3dad8c4abf62/edit"
     },
     "address": [
         {

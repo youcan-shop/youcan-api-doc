@@ -33,8 +33,8 @@ To authenticate you get the customer token for the [Login endpoint](/store-front
             "created_at": "2021-04-28T14:19:05+00:00",
             "updated_at": "2021-04-28T14:19:05+00:00",
             "links": {
-                "self": "http://seller-area.dotshop.com/admin/orders/12d23b0b-2efd-44c5-af88-360e144147bb",
-                "edit": "http://seller-area.dotshop.com/admin/orders/12d23b0b-2efd-44c5-af88-360e144147bb/edit"
+                "self": "http://seller-area.youcan.shop/admin/orders/12d23b0b-2efd-44c5-af88-360e144147bb",
+                "edit": "http://seller-area.youcan.shop/admin/orders/12d23b0b-2efd-44c5-af88-360e144147bb/edit"
             },
             "payment": {
                 "status_text": "pending",
@@ -108,7 +108,7 @@ To authenticate you get the customer token for the [Login endpoint](/store-front
                             "name": "المنتج الأول",
                             "slug": "product-1",
                             "public_url": null,
-                            "thumbnail": "http://cdn.dotshop.com/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4_md.png",
+                            "thumbnail": "http://cdn.youcan.shop/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4_md.png",
                             "description": "<p>المنتج الأول</p>",
                             "price": 10,
                             "compare_at_price": 15,
@@ -125,7 +125,7 @@ To authenticate you get the customer token for the [Login endpoint](/store-front
                                 "images": [
                                     {
                                         "path": "stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4.png",
-                                        "link": "http://cdn.dotshop.com/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4.png"
+                                        "link": "http://cdn.youcan.shop/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4.png"
                                     }
                                 ]
                             },
@@ -141,13 +141,13 @@ To authenticate you get the customer token for the [Login endpoint](/store-front
                                     "id": "7796f12e-c5b0-4444-9f7d-806f686c2056",
                                     "name": "stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4.png",
                                     "type": 1,
-                                    "url": "http://cdn.dotshop.com/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4.png",
+                                    "url": "http://cdn.youcan.shop/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4.png",
                                     "order": 1,
                                     "variations": {
-                                        "original": "http://cdn.dotshop.com/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4.png",
-                                        "sm": "http://cdn.dotshop.com/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4_sm.png",
-                                        "md": "http://cdn.dotshop.com/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4_md.png",
-                                        "lg": "http://cdn.dotshop.com/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4_lg.png"
+                                        "original": "http://cdn.youcan.shop/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4.png",
+                                        "sm": "http://cdn.youcan.shop/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4_sm.png",
+                                        "md": "http://cdn.youcan.shop/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4_md.png",
+                                        "lg": "http://cdn.youcan.shop/stores/default/products/66SEhP6ZCMJArbIHVT5XgkQOEU6q077C4TIfQMk4_lg.png"
                                     }
                                 }
                             ]

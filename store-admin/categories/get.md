@@ -15,7 +15,7 @@ Method: `GET`
   "image": null,
   "slug": "default-category",
   "show_on_collection": false,
-  "public_url": "http://my-store.dotshop.com/collections/default-category",
+  "public_url": "http://my-store.youcan.shop/collections/default-category",
   "description": "This is the default category.",
   "has_parent": false,
   "parent_id": null,
