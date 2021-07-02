@@ -26,7 +26,7 @@ To authenticate you get the customer token for the [Login endpoint](/store-front
     "last_name": "Name",
     "full_name": "Customer Name",
     "email": "email@example.com",
-    "avatar": "https://www.gravatar.com/avatar/51da629dd1e2e92f2e191ad1eb8aae89?s=100&d=http://my-store.dotshop.com/store-admin/images/generic_avatar.png",
+    "avatar": "https://www.gravatar.com/avatar/51da629dd1e2e92f2e191ad1eb8aae89?s=100&d=http://my-store.youcan.shop/store-admin/images/generic_avatar.png",
     "phone": "0600000000",
     "country": "MA",
     "region": "Fes",

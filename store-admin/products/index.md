@@ -20,6 +20,18 @@ Method: `GET`
 | `trashed` | `=` | bool | Include deleted products |
 
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://api.youcan.shop/products?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `variants`
+- `categories`
+- `vendors`
+- `images`
+
 ## Response
 
 [200]

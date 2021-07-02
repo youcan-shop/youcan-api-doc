@@ -29,6 +29,23 @@ Searchable fields are matched when the field value contains the expression
 - `Customer phone`
 - `Customer email`
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://api.youcan.shop/orders?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `customer`
+- `variants`
+- `payment`
+- `shipping`
+- `discount`
+- `coupon`
+- `comments`
+- `refunds`
+- `referenced_order`
+
 ## Response
 
 [200]
@@ -50,8 +67,8 @@ Searchable fields are matched when the field value contains the expression
       "created_at": "2021-03-17T09:42:07+00:00",
       "updated_at": "2021-03-17T10:40:42+00:00",
       "links": {
-        "self": "http://seller-area.dotshop.com/admin/orders/72aa7882-3898-49a8-87a2-506af3dd7320",
-        "edit": "http://seller-area.dotshop.com/admin/orders/72aa7882-3898-49a8-87a2-506af3dd7320/edit"
+        "self": "http://seller-area.youcan.shop/admin/orders/72aa7882-3898-49a8-87a2-506af3dd7320",
+        "edit": "http://seller-area.youcan.shop/admin/orders/72aa7882-3898-49a8-87a2-506af3dd7320/edit"
       },
       "payment": {
         "status_text": "pending",
@@ -121,7 +138,7 @@ Searchable fields are matched when the field value contains the expression
               "name": "Third product",
               "slug": "product-3",
               "public_url": null,
-              "thumbnail": "http://cdn.dotshop.com/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd_md.png",
+              "thumbnail": "http://cdn.youcan.shop/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd_md.png",
               "description": "<p>The third product</p>",
               "price": 40,
               "compare_at_price": 60,
@@ -138,7 +155,7 @@ Searchable fields are matched when the field value contains the expression
                 "images": [
                   {
                     "path": "stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd.png",
-                    "link": "http://cdn.dotshop.com/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd.png"
+                    "link": "http://cdn.youcan.shop/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd.png"
                   }
                 ]
               },
@@ -154,13 +171,13 @@ Searchable fields are matched when the field value contains the expression
                   "id": "c21dc84a-c84f-4073-b272-689b5f070cff",
                   "name": "stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd.png",
                   "type": 1,
-                  "url": "http://cdn.dotshop.com/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd.png",
+                  "url": "http://cdn.youcan.shop/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd.png",
                   "order": 0,
                   "variations": {
-                    "original": "http://cdn.dotshop.com/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd.png",
-                    "sm": "http://cdn.dotshop.com/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd_sm.png",
-                    "md": "http://cdn.dotshop.com/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd_md.png",
-                    "lg": "http://cdn.dotshop.com/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd_lg.png"
+                    "original": "http://cdn.youcan.shop/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd.png",
+                    "sm": "http://cdn.youcan.shop/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd_sm.png",
+                    "md": "http://cdn.youcan.shop/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd_md.png",
+                    "lg": "http://cdn.youcan.shop/stores/default/products/MVyZpEEENXKTjbDIEbCBinIiwl2iXmtP4vpHtNHd_lg.png"
                   }
                 }
               ]
@@ -179,7 +196,7 @@ Searchable fields are matched when the field value contains the expression
       "current_page": 1,
       "total_pages": 3,
       "links": {
-        "next": "http://seller-area.dotshop.com/admin/api/orders?page=2"
+        "next": "http://seller-area.youcan.shop/admin/api/orders?page=2"
       }
     }
   }

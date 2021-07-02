@@ -4,6 +4,18 @@ Endpoint: `https://api.youcan.shop/products/{id}`
 
 Method: `GET`
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://api.youcan.shop/products/{id}?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `variants`
+- `categories`
+- `vendors`
+- `images`
+
 ## Response
 
 [200]

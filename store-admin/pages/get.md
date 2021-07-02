@@ -14,7 +14,7 @@ Method: `GET`
     "name": "about-us",
     "slug": "about-us",
     "visibility": "1",
-    "public_url": "http://my-store.dotshop.com/pages/about-us",
+    "public_url": "http://my-store.youcan.shop/pages/about-us",
     "content": "<h4>about us</h4>",
     "created_at": "2021-04-19T12:33:50+00:00",
     "meta": {

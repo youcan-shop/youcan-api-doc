@@ -26,7 +26,7 @@ Method: `GET`
             "first_name": "Zephr",
             "last_name": "Hurley",
             "content": "Eum ut et beatae arc",
-            "images_urls": ["http://cdn.dotshop.com/stores/afnisse/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_md.jpeg"],
+            "images_urls": ["http://cdn.youcan.shop/stores/afnisse/products/gnuYpd98X6huXaR51aL8GO23IYnERB08KUMOhdLA_md.jpeg"],
             "created_at": "2020-12-07T16:58:54+00:00"
         },
         {

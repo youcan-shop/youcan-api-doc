@@ -40,7 +40,7 @@ To authenticate you get the customer token for the [Login endpoint](/store-front
   "last_name": "Lam",
   "full_name": "Joe Lam",
   "email": "test@gmail.com",
-  "avatar": "https://www.gravatar.com/avatar/1aedb8d9dc4751e229a335e371db8058?s=100&d=http://nordine.dotshop.com/store-admin/images/generic_avatar.png",
+  "avatar": "https://www.gravatar.com/avatar/1aedb8d9dc4751e229a335e371db8058?s=100&d=http://nordine.youcan.shop/store-admin/images/generic_avatar.png",
   "phone": null,
   "country": "",
   "region": "",
@@ -51,7 +51,7 @@ To authenticate you get the customer token for the [Login endpoint](/store-front
   "updated_at": "2021-04-24T13:22:04+00:00",
   "deleted_at": null,
   "links": {
-    "edit": "http://seller-area.dotshop.com/admin/customers/10303f69-eef7-43a2-b71e-b52c9ad9487b/edit"
+    "edit": "http://seller-area.youcan.shop/admin/customers/10303f69-eef7-43a2-b71e-b52c9ad9487b/edit"
   }
 }
 ```
