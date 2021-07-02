@@ -13,6 +13,16 @@ Method: `GET`
   - `ratings`: Reviewer rating.
   - `created_at`: Creation date.
 
+
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://my-store.com/api/products/{id}/?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `product`
+
 ## Response
 
 [200]

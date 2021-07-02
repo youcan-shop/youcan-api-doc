@@ -10,6 +10,17 @@ Method: `GET`
   - `name`: Category name.
   - `created_at`:  Creation date.
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://my-store.com/api/categories?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `parent`
+- `children`
+- `products`
+
 ## Response
 
 [200]

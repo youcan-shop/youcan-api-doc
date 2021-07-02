@@ -12,6 +12,18 @@ Method: `GET`
   - `you_save_amount`: The different between price and compare at price.
   - `created_at`:  Creation date.
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://my-store.com/api/products?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `variants`
+- `categories`
+- `vendors`
+- `images`
+
 ## Response
 
 [200]
