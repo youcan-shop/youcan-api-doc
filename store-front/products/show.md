@@ -4,6 +4,18 @@ Endpoint: `https://my-store.com/api/products/{id}`
 
 Method: `GET`
 
+## Subresources
+
+To include a sub-resource, add GET param `include`.
+`https://my-store.com/api/products/{id}?include=<SUBRESOURCE>`
+
+### Available subresources
+
+- `variants`
+- `categories`
+- `vendors`
+- `images`
+
 
 ## Response
 
