@@ -5,12 +5,12 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/api/categories",
+          "url": "{StoreFrontBaseURI}/api/categories",
           "method": "GET"
         },
         {
           "name": "Listing Sub categories",
-          "url": "https://{domain}/api/categories/{id}/children",
+          "url": "{StoreFrontBaseURI}/api/categories/{id}/children",
           "method": "GET"
         }
       ]
@@ -20,17 +20,17 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/api/products",
+          "url": "{StoreFrontBaseURI}/api/products",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/api/products/{id}",
+          "url": "{StoreFrontBaseURI}/api/products/{id}",
           "method": "GET"
         },
         {
           "name": "Listing by category",
-          "url": "https://{domain}/api/categories/{id}/products",
+          "url": "{StoreFrontBaseURI}/api/categories/{id}/products",
           "method": "GET"
         }
       ]
@@ -40,7 +40,7 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/api/menus",
+          "url": "{StoreFrontBaseURI}/api/menus",
           "method": "GET"
         }
       ]
@@ -50,7 +50,7 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/api/pages",
+          "url": "{StoreFrontBaseURI}/api/pages",
           "method": "GET"
         }
       ]
@@ -60,7 +60,7 @@
       "endpoints": [
         {
           "name": "Create",
-          "url": "https://{domain}/api/customers",
+          "url": "{StoreFrontBaseURI}/api/customers",
           "method": "POST",
           "body": {
             "email": true,
@@ -76,7 +76,7 @@
         },
         {
           "name": "Login",
-          "url": "https://{domain}/api/customers/login",
+          "url": "{StoreFrontBaseURI}/api/customers/login",
           "method": "POST",
           "body": {
             "email": true,
@@ -85,12 +85,12 @@
         },
         {
           "name": "Show",
-          "url": "https://{domain}/api/customers/account",
+          "url": "{StoreFrontBaseURI}/api/customers/account",
           "method": "GET"
         },
         {
           "name": "Update",
-          "url": "https://{domain}/api/customers/account",
+          "url": "{StoreFrontBaseURI}/api/customers/account",
           "method": "PUT",
           "body": {
             "email": false,
@@ -106,7 +106,7 @@
         },
         {
           "name": "Get orders",
-          "url": "https://{domain}/api/customers/orders",
+          "url": "{StoreFrontBaseURI}/api/customers/orders",
           "method": "GET"
         }
       ]
@@ -118,7 +118,7 @@
       "endpoints": [
         {
           "name": "Show",
-          "url": "https://{domain}/me",
+          "url": "{StoreAdminBaseURI}/me",
           "method": "GET"
         }
       ]
@@ -128,17 +128,17 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/products",
+          "url": "{StoreAdminBaseURI}/products",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/products/{id}",
+          "url": "{StoreAdminBaseURI}/products/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/products",
+          "url": "{StoreAdminBaseURI}/products",
           "method": "POST",
           "body": {
             "name": true,
@@ -158,7 +158,7 @@
         },
         {
           "name": "Delete",
-          "url": "https://{domain}/products/{id}",
+          "url": "{StoreAdminBaseURI}/products/{id}",
           "method": "DELETE"
         }
       ]
@@ -168,22 +168,22 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/reviews",
+          "url": "{StoreAdminBaseURI}/reviews",
           "method": "GET"
         },
         {
           "name": "Get by product",
-          "url": "https://{domain}/products/{id}/reviews",
+          "url": "{StoreAdminBaseURI}/products/{id}/reviews",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/reviews/{id}",
+          "url": "{StoreAdminBaseURI}/reviews/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/products/{id}/reviews",
+          "url": "{StoreAdminBaseURI}/products/{id}/reviews",
           "method": "POST",
           "body": {
             "ratings": true,
@@ -196,7 +196,7 @@
         },
         {
           "name": "Update",
-          "url": "https://{domain}/products/{id}/reviews",
+          "url": "{StoreAdminBaseURI}/products/{id}/reviews",
           "method": "PUT",
           "body": {
             "ratings": false,
@@ -209,17 +209,17 @@
         },
         {
           "name": "Approve",
-          "url": "https://{domain}/reviews/{id}/approve",
+          "url": "{StoreAdminBaseURI}/reviews/{id}/approve",
           "method": "PUT"
         },
         {
           "name": "Reject",
-          "url": "https://{domain}/reviews/{id}/reject",
+          "url": "{StoreAdminBaseURI}/reviews/{id}/reject",
           "method": "PUT"
         },
         {
           "name": "Delete",
-          "url": "https://{domain}/reviews/{id}",
+          "url": "{StoreAdminBaseURI}/reviews/{id}",
           "method": "DELETE"
         }
       ]
@@ -229,12 +229,12 @@
       "endpoints": [
         {
           "name": "Increment",
-          "url": "https://{domain}/products/{id}/inventory/increment",
+          "url": "{StoreAdminBaseURI}/products/{id}/inventory/increment",
           "method": "PUT"
         },
         {
           "name": "Decrement",
-          "url": "https://{domain}/products/{id}/inventory/decrement",
+          "url": "{StoreAdminBaseURI}/products/{id}/inventory/decrement",
           "method": "PUT"
         }
       ]
@@ -244,22 +244,22 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/orders",
+          "url": "{StoreAdminBaseURI}/orders",
           "method": "GET"
         },
         {
           "name": "Search",
-          "url": "https://{domain}/orders?q={SEARCH_VALUE}",
+          "url": "{StoreAdminBaseURI}/orders?q={SEARCH_VALUE}",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/orders/{id}",
+          "url": "{StoreAdminBaseURI}/orders/{id}",
           "method": "GET"
         },
         {
           "name": "Fulfill",
-          "url": "https://{domain}/orders/{id}/close",
+          "url": "{StoreAdminBaseURI}/orders/{id}/close",
           "method": "PUT",
           "body": {
             "cancel_order": false
@@ -267,7 +267,7 @@
         },
         {
           "name": "Create",
-          "url": "https://{domain}/orders",
+          "url": "{StoreAdminBaseURI}/orders",
           "method": "POST",
           "body": {
             "customer_id": true,
@@ -289,17 +289,17 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/upsells",
+          "url": "{StoreAdminBaseURI}/upsells",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/upsells/{id}",
+          "url": "{StoreAdminBaseURI}/upsells/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/upsells",
+          "url": "{StoreAdminBaseURI}/upsells",
           "method": "POST",
           "body": {
             "name": true,
@@ -312,7 +312,7 @@
         },
         {
           "name": "Update",
-          "url": "https://{domain}/upsells{id}",
+          "url": "{StoreAdminBaseURI}/upsells{id}",
           "method": "PUT",
           "body": {
             "name": false,
@@ -325,7 +325,7 @@
         },
         {
           "name": "Delete",
-          "url": "https://{domain}/upsells/{id}",
+          "url": "{StoreAdminBaseURI}/upsells/{id}",
           "method": "DELETE"
         }
       ]
@@ -335,22 +335,22 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/categories",
+          "url": "{StoreAdminBaseURI}/categories",
           "method": "GET"
         },
         {
           "name": "Searching",
-          "url": "https://{domain}/categories?q={SEARCH_VALUE}",
+          "url": "{StoreAdminBaseURI}/categories?q={SEARCH_VALUE}",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/categories/{id}",
+          "url": "{StoreAdminBaseURI}/categories/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/categories",
+          "url": "{StoreAdminBaseURI}/categories",
           "method": "POST",
           "body": {
             "name": true,
@@ -364,7 +364,7 @@
         },
         {
           "name": "Update",
-          "url": "https://{domain}/categories{id}",
+          "url": "{StoreAdminBaseURI}/categories{id}",
           "method": "PUT",
           "body": {
             "name": false,
@@ -378,7 +378,7 @@
         },
         {
           "name": "Delete",
-          "url": "https://{domain}/categories/{id}",
+          "url": "{StoreAdminBaseURI}/categories/{id}",
           "method": "DELETE"
         }
       ]
@@ -388,17 +388,17 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/menus",
+          "url": "{StoreAdminBaseURI}/menus",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/menus/{id}",
+          "url": "{StoreAdminBaseURI}/menus/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/menus",
+          "url": "{StoreAdminBaseURI}/menus",
           "method": "POST",
           "body": {
             "name": true,
@@ -409,7 +409,7 @@
         },
         {
           "name": "Update",
-          "url": "https://{domain}/menus{id}",
+          "url": "{StoreAdminBaseURI}/menus{id}",
           "method": "PUT",
           "body": {
             "name": false,
@@ -425,17 +425,17 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/coupons",
+          "url": "{StoreAdminBaseURI}/coupons",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/coupons/{id}",
+          "url": "{StoreAdminBaseURI}/coupons/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/coupons",
+          "url": "{StoreAdminBaseURI}/coupons",
           "method": "POST",
           "body": {
             "code": true,
@@ -450,7 +450,7 @@
         },
         {
           "name": "Update",
-          "url": "https://{domain}/coupons{id}",
+          "url": "{StoreAdminBaseURI}/coupons{id}",
           "method": "PUT",
           "body": {
             "code": false,
@@ -465,7 +465,7 @@
         },
         {
           "name": "Delete",
-          "url": "https://{domain}/coupons/{id}",
+          "url": "{StoreAdminBaseURI}/coupons/{id}",
           "method": "DELETE"
         }
       ]
@@ -475,7 +475,7 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/customers",
+          "url": "{StoreAdminBaseURI}/customers",
           "method": "GET"
         },
         {
@@ -485,12 +485,12 @@
         },
         {
           "name": "Show",
-          "url": "https://{domain}/customers/{id}",
+          "url": "{StoreAdminBaseURI}/customers/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/customers",
+          "url": "{StoreAdminBaseURI}/customers",
           "method": "POST",
           "body": {
             "first_name": true,
@@ -505,7 +505,7 @@
         },
         {
           "name": "Update",
-          "url": "https://{domain}/customers{id}",
+          "url": "{StoreAdminBaseURI}/customers{id}",
           "method": "PUT",
           "body": {
             "first_name": true,
@@ -520,12 +520,12 @@
         },
         {
           "name": "Delete",
-          "url": "https://{domain}/customers/{id}",
+          "url": "{StoreAdminBaseURI}/customers/{id}",
           "method": "DELETE"
         },
         {
           "name": "Create adresse",
-          "url": "https://{domain}/customers/{id}/addresses",
+          "url": "{StoreAdminBaseURI}/customers/{id}/addresses",
           "method": "POST",
           "body": {
             "first_name": true,
@@ -544,7 +544,7 @@
         },
         {
           "name": "Update adresse",
-          "url": "https://{domain}/customers/{id}/addresses/{addressId}",
+          "url": "{StoreAdminBaseURI}/customers/{id}/addresses/{addressId}",
           "method": "PUT",
           "body": {
             "first_name": false,
@@ -568,22 +568,22 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/pages",
+          "url": "{StoreAdminBaseURI}/pages",
           "method": "GET"
         },
         {
           "name": "Searching",
-          "url": "https://{domain}/pages?q={SEARCH_VALUE}",
+          "url": "{StoreAdminBaseURI}/pages?q={SEARCH_VALUE}",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/pages/{id}",
+          "url": "{StoreAdminBaseURI}/pages/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/pages",
+          "url": "{StoreAdminBaseURI}/pages",
           "method": "POST",
           "body": {
             "name": true,
@@ -598,7 +598,7 @@
         },
         {
           "name": "Update",
-          "url": "https://{domain}/pages{id}",
+          "url": "{StoreAdminBaseURI}/pages{id}",
           "method": "PUT",
           "body": {
             "name": true,
@@ -613,7 +613,7 @@
         },
         {
           "name": "Delete",
-          "url": "https://{domain}/pages/{id}",
+          "url": "{StoreAdminBaseURI}/pages/{id}",
           "method": "DELETE"
         }
       ]
@@ -623,17 +623,17 @@
       "endpoints": [
         {
           "name": "Listing",
-          "url": "https://{domain}/shipping-zones",
+          "url": "{StoreAdminBaseURI}/shipping-zones",
           "method": "GET"
         },
         {
           "name": "Show",
-          "url": "https://{domain}/shipping-zones/{id}",
+          "url": "{StoreAdminBaseURI}/shipping-zones/{id}",
           "method": "GET"
         },
         {
           "name": "Create",
-          "url": "https://{domain}/shipping-zones",
+          "url": "{StoreAdminBaseURI}/shipping-zones",
           "method": "POST",
           "body": {
             "name": true,
@@ -650,7 +650,7 @@
         },
         {
           "name": "Update",
-          "url": "https://{domain}/shipping-zones{id}",
+          "url": "{StoreAdminBaseURI}/shipping-zones{id}",
           "method": "PUT",
           "body": {
             "name": false,
@@ -667,12 +667,12 @@
         },
         {
           "name": "Delete",
-          "url": "https://{domain}/shipping-zones/{id}",
+          "url": "{StoreAdminBaseURI}/shipping-zones/{id}",
           "method": "DELETE"
         },
         {
           "name": "Create Shipping Rate",
-          "url": "https://{domain}/shipping-zones/{id}/rates",
+          "url": "{StoreAdminBaseURI}/shipping-zones/{id}/rates",
           "method": "POST",
           "body": {
             "rates": false,
@@ -683,7 +683,7 @@
         },
         {
           "name": "Update adresse",
-          "url": "https://{domain}/shipping-zones/{id}/rates/{ratesId}",
+          "url": "{StoreAdminBaseURI}/shipping-zones/{id}/rates/{ratesId}",
           "method": "PUT",
           "body": {
             "rates": false,
