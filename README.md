@@ -7,3 +7,6 @@ Doc
 
 ## Store front
 Doc
+
+## Rest hooks
+Doc
