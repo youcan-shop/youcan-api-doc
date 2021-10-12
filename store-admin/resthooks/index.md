@@ -25,12 +25,12 @@ With REST Hooks, the rest api is able to communicate with order apps in real tim
 ## Authorization
 
 To able to work with Rest Hooks subscriptions, the user should have authentication token.<br />
-You can follow previous [OAuth steps](/store-admin/oauth/index.md) to get an authentication token.
+You can follow previous [OAuth steps](/store-admin/oauth) to get an authentication token.
 
 <a name="subscribe"></a>
 ## Subscribe
 
-Subscribe is an [endpoint](/store-admin/resthooks/subscribe.md) allows you to set a target url for an event to send payloads of data.
+Subscribe is an [endpoint](/store-admin/resthooks/subscribe) allows you to set a target url for an event to send payloads of data.
 
 #### Available events
 
@@ -42,4 +42,4 @@ Subscribe is an [endpoint](/store-admin/resthooks/subscribe.md) allows you to se
 <a name="unsubscribe"></a>
 ## Unsubscribe
 
-Unsubscribe is an [endpoint](/store-admin/resthooks/unsubscribe.md) allows to stop a subscription for an event immediately.
+Unsubscribe is an [endpoint](/store-admin/resthooks/unsubscribe) allows to stop a subscription for an event immediately.
