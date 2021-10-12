@@ -8,8 +8,8 @@ Method: `POST`
 
 | Param Name     | Param Type | Description                  | Required |
 | -------------- | ---------- | -----------------------------| -------- |
-| `target_url`   | string     | Target url                   | yes      |
-| `event`        | string     | Event, supported events: `inventory.low` or `order.create` | yes      |
+| `target_url`   | string     | the URL which you want our API to POST to when this event occurs, mandatory                   | yes      |
+| `event`        | string     | the event name that you want to hold about.<br />supported events: <ul><li>`inventory.low`</li><li>`order.create`</li></ul> | yes      |
 
 ## Responses
 
