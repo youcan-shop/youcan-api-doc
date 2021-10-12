@@ -9,3 +9,22 @@ Method: `POST`
 - `id`: subscription id
 
 ## Responses
+
+[200] Ok
+
+```json
+{
+  "message": "unsubscribed from event succeed",
+  "type": "success"
+}
+```
+
+[404] Not Found
+
+```json
+{
+  "status": 404,
+  "detail": "Subscription not found",
+  "meta": []
+}
+```
