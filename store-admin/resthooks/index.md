@@ -1,13 +1,22 @@
 # Rest Hooks
 
 - [Introduction](#introduction)
-- [Authorization](/oauth#authorization)
-- [Subscribe](subscribe)
+- [Authorization](#authorization)
+- [Subscribe](#authorization)
 - [Perform](#perform)
-- [Unsubscribe](unsubscribe)
+- [Unsubscribe](#authorization)
 
 <a name="introduction"></a>
-## introduction
+## Introduction
+
+<a name="authorization"></a>
+## Authorization
+
+<a name="subscribe"></a>
+## Subscribe
 
 <a name="perform"></a>
 ## Perform
+
+<a name="unsubscribe"></a>
+## Unsubscribe
