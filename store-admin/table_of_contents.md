@@ -80,5 +80,6 @@
   - [Create](/store-admin/shipping-zones/rates/create) <span class="request-method-post"></span>
   - [Update](/store-admin/shipping-zones/rates/update) <span class="request-method-put"></span>
 - #### [Rest Hooks](/store-admin/resthooks)
+  - [Listing](/store-admin/resthooks/list) <span class="request-method-get"></span>
   - [Subscribe](/store-admin/resthooks/subscribe) <span class="request-method-post"></span>
   - [Unsubscribe](/store-admin/resthooks/unsubscribe) <span class="request-method-post"></span>
