@@ -17,6 +17,6 @@ Method: `GET`
         "code": "USD",
         "symbol": "$"
     },
-   "logo": "http://cdn.dotshop.com/stores/default/theme-settings/c8lBte0uft2xTkJKfULkZGNL24vU5jJzYB4ZYO7e.png"
+   "logo": "http://cdn.youcan.shop/stores/default/theme-settings/c8lBte0uft2xTkJKfULkZGNL24vU5jJzYB4ZYO7e.png"
 }
 ```
