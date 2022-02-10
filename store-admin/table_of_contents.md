@@ -32,9 +32,10 @@
 - #### Orders
   - [Listing](/store-admin/orders/index) <span class="request-method-get"></span>
   - [Show](/store-admin/orders/get) <span class="request-method-get"></span>
+  - [Create](/store-admin/orders/create) <span class="request-method-post"></span>
   - [Fulfill](/store-admin/orders/fulfill) <span class="request-method-post"></span>
   - [Close](/store-admin/orders/close) <span class="request-method-post"></span>
-  - [Create](/store-admin/orders/create) <span class="request-method-post"></span>
+  - [Mark As Paid](/store-admin/orders/pay) <span class="request-method-post"></span>
 - #### Upsells
   - [Listing](/store-admin/upsells/index) <span class="request-method-get"></span>
   - [Get](/store-admin/upsells/get) <span class="request-method-get"></span>
