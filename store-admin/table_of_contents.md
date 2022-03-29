@@ -12,6 +12,7 @@
   - [Menus](/store-admin/entities/menus/menu)
 - #### Store
   - [Store details](/store-admin/store/me) <span class="request-method-get"></span>
+  - [Seller Packs](/store-admin/store/packs) <span class="request-method-get"></span>
 - #### Products
   - [Listing](/store-admin/products/index) <span class="request-method-get"></span>
   - [Show](/store-admin/products/get) <span class="request-method-get"></span>
