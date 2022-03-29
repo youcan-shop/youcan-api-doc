@@ -1,16 +1,8 @@
 # Get Seller Profits
 
-Endpoint: `https://api.youcan.shop/profits/{store_id}`
+Endpoint: `https://api.youcan.shop/profits`
 
 Method :  `GET`
-
-## URL Parameters
-
-- `store_id`: Store id
-
-## Request
-
-`https://api.youcan.shop/profits/2cee434c-2864-4d7b-9e38-fd0b2d5a23cd`
 
 ## Response
 
