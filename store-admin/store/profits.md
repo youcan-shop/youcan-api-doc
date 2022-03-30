@@ -1,6 +1,6 @@
 # Get Seller Profits
 
-Endpoint: `https://api.youcan.shop/profits`
+Endpoint: `https://api.youcan.shop/stores/profit`
 
 Method :  `GET`
 
