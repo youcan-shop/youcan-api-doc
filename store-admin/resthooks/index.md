@@ -38,6 +38,7 @@ Subscribe is an [endpoint](/store-admin/resthooks/subscribe) allows you to set a
 | -------------- | -----------------------------|
 | `order.create`   | Subscription to all events of creating a new order. |
 | `inventory.low`        | Subscription to all events who supposed to increment or decrement a product inventory.|
+| `upsell.accept`        | Subscription to event when customer accepts upsell.|
 
 <a name="unsubscribe"></a>
 ## Unsubscribe
